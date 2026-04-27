@@ -149,6 +149,106 @@ export default function Home() {
         <div className="absolute left-0 top-1/2 h-px w-20 bg-accent transform -translate-y-1/2 animate-slideInLeft" />
       </div>
 
+      {/* Seção Introdutória - A Realidade da Aposentadoria */}
+      <section id="a-realidade" data-section="realidade" className="py-20 md:py-32 bg-background relative overflow-hidden">
+        {/* Background Pattern */}
+        <div className="absolute inset-0 opacity-5 pointer-events-none" style={{ backgroundImage: "url('data:image/svg+xml,%3Csvg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg%22%3E%3Cg fill=\"none\" fill-rule=\"evenodd%22%3E%3Cg fill=\"%23ffffff\" fill-opacity=\"0.1%22%3E%3Cpath d=\"M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')" }} />
+
+        <div className="container relative z-10">
+          <div className="max-w-4xl mx-auto">
+            {/* Main Title */}
+            <div className={`mb-16 transition-all duration-700 ${visibleSections["realidade"] ? "animate-fadeInUp" : "opacity-0"}`}>
+              <h2 className="text-3xl md:text-5xl font-bold mb-4 leading-tight">
+                O Tempo Não Perdoa,
+                <br />
+                <span className="accent-text">mas a Estratégia Pode Te Salvar.</span>
+              </h2>
+            </div>
+
+            {/* Subsection 1 */}
+            <div className={`mb-16 transition-all duration-700 ${visibleSections["realidade"] ? "animate-fadeInUp" : "opacity-0"}`} style={{ animationDelay: "0.1s" }}>
+              <h3 className="text-2xl font-bold mb-6 text-primary">A Juventude e o "Milagre" que Ficou para Trás</h3>
+              <p className="text-lg leading-relaxed text-muted-foreground mb-4">
+                Houve um tempo em que o caminho para uma aposentadoria tranquila parecia simples. Na juventude, o tempo era o seu maior ativo. Poucas centenas de reais poupadas mensalmente, sob o efeito dos juros compostos, teriam o poder de se transformar em uma fortuna ao longo de décadas.
+              </p>
+              <p className="text-lg leading-relaxed">
+                Esse é o <span className="font-semibold text-primary">"milagre"</span> que muitos deixaram passar enquanto priorizavam as urgências do dia a dia.
+              </p>
+            </div>
+
+            {/* Subsection 2 */}
+            <div className={`mb-16 transition-all duration-700 ${visibleSections["realidade"] ? "animate-fadeInUp" : "opacity-0"}`} style={{ animationDelay: "0.2s" }}>
+              <h3 className="text-2xl font-bold mb-6 text-primary">A Realidade dos 50: Onde a Matemática Tradicional Falha</h3>
+              <p className="text-lg leading-relaxed text-muted-foreground mb-4">
+                O problema é que a maioria dos brasileiros só acorda para a seriedade da aposentadoria por volta dos 50 anos. E, nesse estágio, a conta não fecha mais pelos métodos convencionais.
+              </p>
+              <div className="bg-primary/5 border-l-4 border-primary rounded-r-lg p-6 mb-4 hover-lift transition-all">
+                <p className="text-lg leading-relaxed">
+                  Na Renda Fixa tradicional, para compensar o tempo perdido e chegar ao mesmo resultado, você precisaria de <span className="font-bold text-primary">aportes mensais astronômicos</span> — valores que, sejamos honestos, não cabem na realidade de quem tem contas a pagar e uma família para sustentar.
+                </p>
+              </div>
+              <p className="text-lg leading-relaxed font-semibold text-destructive">
+                Pelas "vias normais", você teria que trabalhar o triplo para receber o mínimo.
+              </p>
+            </div>
+
+            {/* Subsection 3 */}
+            <div className={`mb-16 transition-all duration-700 ${visibleSections["realidade"] ? "animate-fadeInUp" : "opacity-0"}`} style={{ animationDelay: "0.3s" }}>
+              <h3 className="text-2xl font-bold mb-6 text-primary">O Mito do INSS: Um Barco que Está Afundando</h3>
+              <p className="text-lg leading-relaxed text-muted-foreground mb-6">
+                Se a sua esperança é o sistema público, o cenário é ainda mais alarmante. O INSS tornou-se um jogo onde as regras mudam sempre que você está prestes a ganhar:
+              </p>
+
+              <div className="space-y-4 mb-6">
+                {[
+                  { icon: "⚠️", title: "O Teto é uma Ilusão", desc: "Receber o valor máximo é uma raridade burocrática." },
+                  { icon: "📉", title: "Desvalorização Constante", desc: "Políticas de desindexação e a inflação corroem o seu poder de compra ano após ano." },
+                  { icon: "💔", title: "O Rombo Estrutural", desc: "Com cada vez menos jovens contribuindo e mais pessoas se aposentando, a conta simplesmente não fecha. Insegurança política e adiamentos constantes da idade mínima são apenas os sintomas de um sistema em colapso." },
+                ].map((item, i) => (
+                  <div key={i} className="flex gap-4 hover-lift transition-all">
+                    <span className="text-3xl flex-shrink-0">{item.icon}</span>
+                    <div>
+                      <h4 className="font-bold text-lg mb-1">{item.title}</h4>
+                      <p className="text-muted-foreground">{item.desc}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              <div className="bg-destructive/10 border border-destructive/30 rounded-lg p-6 hover-lift transition-all">
+                <p className="text-lg font-semibold text-destructive">
+                  Depender apenas do governo ou da caderneta de poupança aos 50 anos não é conservadorismo. É um risco altíssimo.
+                </p>
+              </div>
+            </div>
+
+            {/* Call to Action */}
+            <div className={`bg-primary/10 border border-primary/30 rounded-lg p-8 md:p-12 text-center transition-all duration-700 hover-lift animate-borderGlow ${visibleSections["realidade"] ? "animate-fadeInUp" : "opacity-0"}`} style={{ animationDelay: "0.4s" }}>
+              <h3 className="text-2xl md:text-3xl font-bold mb-4">
+                <span className="accent-text">PROTOCOLO RESGATE:</span>
+                <br />
+                <span className="text-primary">OPERAÇÃO APOSENTADORIA</span>
+              </h3>
+              <p className="text-lg leading-relaxed mb-6 text-muted-foreground">
+                Sua última grande chance de construir patrimônio para sua aposentadoria depois dos 50, de forma segura.
+              </p>
+              <p className="text-lg leading-relaxed mb-8">
+                Se você não começou aos 20, você precisa de uma <span className="font-bold text-primary">estratégia de aceleração</span>. O Protocolo Resgate foi criado para resgatar o potencial do seu capital que está parado, transformando o pouco tempo que resta em uma vantagem tática através do mercado de ações, com segurança e inteligência comportamental.
+              </p>
+              <Button className="button-primary group hover-lift shine-effect">
+                Quero Garantir Minha Aposentadoria Agora
+                <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Divider */}
+      <div className="relative h-px bg-border">
+        <div className="absolute left-0 top-1/2 h-px w-20 bg-accent transform -translate-y-1/2" />
+      </div>
+
       {/* O Problema Section */}
       <section id="o-problema" data-section="problema" className="py-20 md:py-32 bg-secondary/30">
         <div className="container">
