@@ -331,12 +331,12 @@ export default function Home() {
               {
                 icon: Users,
                 title: "2. Treinamento Tático ao Vivo",
-                desc: "4 encontros de 1h30m cada, por semana, em grupos de no máximo 5 alunos, para tirar dúvidas em tempo real.",
+                desc: "4 encontros de 1h30m cada, por semana, no primeiro mês + 1 encontro mensal, todo mês, durante 5 meses, sempre em grupos de no máximo 5 alunos, para tirar dúvidas em tempo real e acompanhamento de perto.",
               },
               {
                 icon: Shield,
                 title: "3. Acompanhamento de Elite",
-                desc: "3 meses de suporte direto via WhatsApp após a mentoria para monitorarmos seus resultados.",
+                desc: "6 meses de suporte direto via WhatsApp após a mentoria para monitorarmos seus resultados.",
               },
             ].map((item, i) => (
               <div
@@ -378,6 +378,12 @@ export default function Home() {
               O coração do Protocolo Resgate é a parte psicológica. Como consultor, vou te ajudar a condicionar sua mentalidade para aplicar a estratégia com disciplina.
             </p>
 
+            <div className={`bg-primary/5 border-l-4 border-primary rounded-r-lg p-6 mb-8 hover-lift transition-all ${visibleSections["diferencial"] ? "animate-fadeInUp" : "opacity-0"}`} style={{ animationDelay: "0.1s" }}>
+              <p className="text-lg font-semibold text-primary italic">
+                "Mudar sua realidade não tem nada a ver com fórmula mágica, mas com estratégia e disciplina."
+              </p>
+            </div>
+
             <div className={`bg-accent/10 border border-accent/30 rounded-lg p-8 transition-all duration-700 hover-lift ${visibleSections["diferencial"] ? "animate-fadeInUp" : "opacity-0"}`}>
               <h3 className="text-xl font-bold mb-6 text-accent">Para Quem é o Protocolo Resgate</h3>
               <div className="space-y-3">
@@ -393,6 +399,27 @@ export default function Home() {
                   <div key={i} className="flex items-start gap-3 hover-lift transition-all">
                     <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5 animate-pulseGlow" />
                     <span>{item}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className={`bg-destructive/5 border border-destructive/30 rounded-lg p-8 transition-all duration-700 hover-lift mt-8 ${visibleSections["diferencial"] ? "animate-fadeInUp" : "opacity-0"}`} style={{ animationDelay: "0.2s" }}>
+              <h3 className="text-xl font-bold mb-6 text-destructive">Para Quem NÃO É</h3>
+              <div className="space-y-3">
+                {[
+                  "Para quem não tem disciplina",
+                  "Para quem não está comprometido com seu projeto de aposentadoria e crescimento de capital",
+                  "Para quem acha que o dinheiro gasto na mentoria será uma despesa",
+                  "Para quem acredita em fórmula mágica",
+                  "Para quem não tem paciência de esperar os frutos crescerem ao longo do tempo",
+                  "Para quem quer algo da noite para o dia",
+                  "Para quem está buscando um esquema de enriquecimento",
+                  "Para quem não tem dinheiro algum para começar",
+                ].map((item, i) => (
+                  <div key={i} className="flex items-start gap-3">
+                    <span className="text-xl flex-shrink-0 mt-0.5">✗</span>
+                    <span className="text-muted-foreground">{item}</span>
                   </div>
                 ))}
               </div>
@@ -424,9 +451,9 @@ export default function Home() {
             O tempo está correndo. Você está pronto para o resgate ou prefere se entregar?
           </p>
 
-          <Button className="bg-accent text-accent-foreground hover:bg-accent/90 px-8 py-3 text-lg font-bold group hover-lift shine-effect animate-pulseGlow">
+          <Button className="bg-accent text-accent-foreground hover:bg-accent/90 px-10 py-4 text-xl md:text-2xl font-bold group hover-lift shine-effect animate-pulseGlow">
             Quero Iniciar o Protocolo Resgate
-            <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            <ArrowRight className="ml-2 w-6 h-6 group-hover:translate-x-1 transition-transform" />
           </Button>
         </div>
       </section>
