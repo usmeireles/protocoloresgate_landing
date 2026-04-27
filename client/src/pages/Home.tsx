@@ -224,11 +224,14 @@ export default function Home() {
 
             {/* Call to Action */}
             <div className={`bg-primary/10 border border-primary/30 rounded-lg p-8 md:p-12 text-center transition-all duration-700 hover-lift animate-borderGlow ${visibleSections["realidade"] ? "animate-fadeInUp" : "opacity-0"}`} style={{ animationDelay: "0.4s" }}>
-              <h3 className="text-2xl md:text-3xl font-bold mb-4">
-                <span className="accent-text">PROTOCOLO RESGATE:</span>
-                <br />
-                <span className="text-primary">OPERAÇÃO APOSENTADORIA</span>
-              </h3>
+              <div className="mb-4">
+                <div className="text-4xl md:text-6xl font-bold mb-2">
+                  <span className="accent-text">PROTOCOLO RESGATE:</span>
+                </div>
+                <div className="text-2xl md:text-3xl font-bold">
+                  <span className="text-primary">OPERAÇÃO APOSENTADORIA</span>
+                </div>
+              </div>
               <p className="text-lg leading-relaxed mb-6 text-muted-foreground">
                 Sua última grande chance de construir patrimônio para sua aposentadoria depois dos 50, de forma segura.
               </p>
