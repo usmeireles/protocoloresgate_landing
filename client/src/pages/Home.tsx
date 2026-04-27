@@ -203,7 +203,7 @@ export default function Home() {
                 {[
                   { icon: "⚠️", title: "O Teto é uma Ilusão", desc: "Receber o valor máximo é uma raridade burocrática." },
                   { icon: "📉", title: "Desvalorização Constante", desc: "Políticas de desindexação e a inflação corroem o seu poder de compra ano após ano." },
-                  { icon: "💔", title: "O Rombo Estrutural", desc: "Com cada vez menos jovens contribuindo e mais pessoas se aposentando, a conta simplesmente não fecha. Insegurança política e adiamentos constantes da idade mínima são apenas os sintomas de um sistema em colapso." },
+                  { icon: "💔", title: "O Rombo Estrutural", desc: "Com cada vez menos jovens contribuindo e mais pessoas se aposentando, a conta simplesmente não fecha. Insegurança política e adiamentos constantes da idade mínima são apenas os sintomas de um sistema difícil de prever no futuro." },
                 ].map((item, i) => (
                   <div key={i} className="flex gap-4 hover-lift transition-all">
                     <span className="text-3xl flex-shrink-0">{item.icon}</span>
