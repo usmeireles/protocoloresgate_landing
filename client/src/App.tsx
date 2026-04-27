@@ -18,17 +18,16 @@ function Router() {
   );
 }
 
-// NOTE: About Theme
-// - First choose a default theme according to your design style (dark or light bg), than change color palette in index.css
-//   to keep consistent foreground/background color across components
-// - If you want to make theme switchable, pass `switchable` ThemeProvider and use `useTheme` hook
+// Protocolo Resgate - Landing Page
+// Design: Minimalismo Corporativo com Geometria Dinâmica
+// Tema: Escuro (preto profundo #0A0E27 com acentos azul e ouro)
+// Tipografia: Montserrat (display) + Inter (body) + IBM Plex Mono (dados)
 
 function App() {
   return (
     <ErrorBoundary>
       <ThemeProvider
-        defaultTheme="light"
-        // switchable
+        defaultTheme="dark"
       >
         <TooltipProvider>
           <Toaster />
