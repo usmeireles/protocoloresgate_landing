@@ -393,6 +393,8 @@ export default function Home() {
                   "Quer recuperar o tempo perdido após os 50",
                   "Busca uma chance de ter uma aposentadoria mais tranquila e segura",
                   "Quer aproveitar as oportunidades do mercado de ações, sem abrir mão da segurança",
+                  "Para quem morre de medo do mercado de ações",
+                  "Para quem é conservador e não abre mão da segurança",
                   "Não dispõe de muito dinheiro para começar",
                   "Quer se comprometer de verdade com seu resgate",
                 ].map((item, i) => (
