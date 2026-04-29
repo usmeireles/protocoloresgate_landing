@@ -124,11 +124,10 @@ export default function Home() {
             </div>
 
             {/* Stats with Animation */}
-            <div className="mt-16 grid grid-cols-3 gap-8 text-center">
+            <div className="mt-16 grid grid-cols-2 gap-8 text-center">
               {[
-                { value: "15+", label: "Anos de Experiência" },
-                { value: "500+", label: "Alunos Transformados" },
-                { value: "95%", label: "Taxa de Sucesso" },
+                { value: "200+", label: "Horas de Mentoria" },
+                { value: "95%", label: "Taxa de Satisfação" },
               ].map((stat, i) => (
                 <div
                   key={i}
@@ -223,7 +222,7 @@ export default function Home() {
             </div>
 
             {/* Call to Action */}
-            <div className={`bg-primary/10 border border-primary/30 rounded-lg p-8 md:p-12 text-center transition-all duration-700 hover-lift animate-borderGlow ${visibleSections["realidade"] ? "animate-fadeInUp" : "opacity-0"}`} style={{ animationDelay: "0.4s" }}>
+            <div className={`bg-accent/10 border border-accent/30 rounded-lg p-8 md:p-12 text-center transition-all duration-700 hover-lift animate-borderGlow ${visibleSections["realidade"] ? "animate-fadeInUp" : "opacity-0"}`} style={{ animationDelay: "0.4s" }}>
               <div className="mb-4">
                 <div className="text-4xl md:text-6xl font-bold mb-2">
                   <span className="accent-text">PROTOCOLO RESGATE:</span>
@@ -326,17 +325,20 @@ export default function Home() {
               {
                 icon: TrendingUp,
                 title: "1. Inteligência Teórica",
-                desc: "Aulas gravadas, detalhadas e claras, sem teoria desnecessária, onde desintegramos a complexidade do mercado.",
+                desc: (<><span className="font-bold text-primary">Aulas gravadas</span>, detalhadas e claras, sem teoria desnecessária, onde desintegramos a complexidade do mercado.</>
+                ),
               },
               {
                 icon: Users,
                 title: "2. Treinamento Tático ao Vivo",
-                desc: "4 encontros de 1h30m cada, por semana, no primeiro mês + 1 encontro mensal, todo mês, durante 5 meses, sempre em grupos de no máximo 5 alunos, para tirar dúvidas em tempo real e te acompanhar de perto.",
+                desc: (<><span className="font-bold text-primary">4 encontros de 1h30m cada</span>, por semana, no primeiro mês + <span className="font-bold text-accent">1 encontro mensal, todo mês, durante 5 meses</span>, sempre em grupos de <span className="font-bold text-primary">máximo 5 alunos</span>, para tirar dúvidas em tempo real e te acompanhar de perto.</>
+                ),
               },
               {
                 icon: Shield,
                 title: "3. Acompanhamento de Elite",
-                desc: "6 meses de suporte direto via WhatsApp após a mentoria para monitoramento da execução e dos seus resultados.",
+                desc: (<><span className="font-bold text-accent">6 meses de suporte</span> direto via WhatsApp após a mentoria para monitoramento da execução e dos seus resultados.</>
+                ),
               },
             ].map((item, i) => (
               <div
@@ -350,7 +352,7 @@ export default function Home() {
                   </div>
                 </div>
                 <h3 className="text-xl font-bold mb-4">{item.title}</h3>
-                <p className="text-muted-foreground">{item.desc}</p>
+                <div className="text-muted-foreground">{typeof item.desc === 'string' ? item.desc : item.desc}</div>
               </div>
             ))}
           </div>
@@ -377,12 +379,6 @@ export default function Home() {
             <p className={`text-lg leading-relaxed mb-8 transition-all duration-700 ${visibleSections["diferencial"] ? "animate-fadeInUp" : "opacity-0"}`}>
               O coração do Protocolo Resgate é a parte psicológica. Como consultor, vou te ajudar a condicionar sua mentalidade para aplicar a estratégia com disciplina.
             </p>
-
-            <div className={`bg-primary/5 border-l-4 border-primary rounded-r-lg p-6 mb-8 hover-lift transition-all ${visibleSections["diferencial"] ? "animate-fadeInUp" : "opacity-0"}`} style={{ animationDelay: "0.1s" }}>
-              <p className="text-lg font-semibold text-primary italic">
-                "Mudar sua realidade não tem nada a ver com fórmula mágica, mas com estratégia e disciplina."
-              </p>
-            </div>
 
             <div className={`bg-accent/10 border border-accent/30 rounded-lg p-8 transition-all duration-700 hover-lift ${visibleSections["diferencial"] ? "animate-fadeInUp" : "opacity-0"}`}>
               <h3 className="text-xl font-bold mb-6 text-accent">Para Quem é o Protocolo Resgate</h3>
@@ -460,6 +456,20 @@ export default function Home() {
         </div>
       </section>
 
+      {/* LGPD/Cookies Banner */}
+      <div className="bg-primary/5 border-t border-primary/30 py-6">
+        <div className="container">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+            <p className="text-sm text-muted-foreground">
+              Este site utiliza cookies e tecnologias similares para melhorar sua experiencia. Ao continuar navegando, voce concorda com nossa <a href="#" className="text-primary hover:underline">Politica de Privacidade</a> e <a href="#" className="text-primary hover:underline">Politica de Cookies</a> conforme a LGPD.
+            </p>
+            <Button className="button-primary whitespace-nowrap">
+              Aceitar Tudo
+            </Button>
+          </div>
+        </div>
+      </div>
+
       {/* Footer */}
       <footer className="bg-secondary/50 border-t border-border py-12">
         <div className="container">
@@ -474,34 +484,76 @@ export default function Home() {
                 links: ["O Problema", "A Solução", "O Plano"],
               },
               {
-                title: "Contato",
+                title: "Redes Sociais",
                 links: ["LinkedIn", "Instagram"],
+              },
+              {
+                title: "Contato",
+                links: ["Email", "WhatsApp"],
               },
               {
                 title: "Sobre",
                 content: "Consultor de Investimentos CEA-ANBIMA com especialização em Psicologia do Trader.",
               },
-            ].map((col, i) => (
-              <div key={i} className="hover-lift transition-all">
-                <h4 className="font-bold mb-4">{col.title}</h4>
-                {col.content && <p className="text-sm text-muted-foreground">{col.content}</p>}
-                {col.links && (
-                  <ul className="space-y-2 text-sm">
-                    {col.links.map((link, j) => (
-                      <li key={j}>
-                        <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                          {link}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                )}
-              </div>
-            ))}
+            ].map((col, i) => {
+              if (col.title === "Redes Sociais") {
+                return (
+                  <div key={i} className="hover-lift transition-all">
+                    <h4 className="font-bold mb-4">{col.title}</h4>
+                    <div className="flex gap-4">
+                      <a href="https://linkedin.com/in/ubiratan-meireles-consultor-de-investimentos-cea" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors text-2xl" title="LinkedIn">in</a>
+                      <a href="https://instagram.com/consultor_meireles" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors text-2xl" title="Instagram">📷</a>
+                    </div>
+                  </div>
+                );
+              }
+              if (col.title === "Contato") {
+                return (
+                  <div key={i} className="hover-lift transition-all">
+                    <h4 className="font-bold mb-4">{col.title}</h4>
+                    <div className="space-y-3 text-sm">
+                      <a href="mailto:contato@marketmind.net.br" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
+                        <span>✉️</span>
+                        <span>contato@marketmind.net.br</span>
+                      </a>
+                      <a href="https://wa.me/5531982910530" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
+                        <span>📱</span>
+                        <span>+55 31 98291-0530</span>
+                      </a>
+                    </div>
+                  </div>
+                );
+              }
+              return (
+                <div key={i} className="hover-lift transition-all">
+                  <h4 className="font-bold mb-4">{col.title}</h4>
+                  {col.content && <p className="text-sm text-muted-foreground">{col.content}</p>}
+                  {col.links && (
+                    <ul className="space-y-2 text-sm">
+                      {col.links.map((link, j) => (
+                        <li key={j}>
+                          <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                            {link}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              );
+            })
+            }
           </div>
 
-          <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
-            <p>&copy; 2026 Protocolo Resgate. Todos os direitos reservados.</p>
+          <div className="border-t border-border pt-8 space-y-4">
+            <div className="text-xs text-muted-foreground space-y-2">
+              <p><strong>Aviso de Risco:</strong> Resultados passados não garantem resultados futuros. O mercado de ações envolve risco de perda, ainda que controladas.</p>
+              <p><strong>Disclaimer:</strong> Este conteúdo é apenas para fins educacionais e não constitui aconselhamento financeiro profissional. O Protocolo Resgate não se responsabiliza por perdas decorrentes de decisões de investimento.</p>
+              <p><strong>LGPD:</strong> Ao utilizar este site, você concorda com nossa Política de Privacidade e aceita o tratamento de dados conforme a Lei Geral de Proteção de Dados (LGPD).</p>
+            </div>
+            <div className="text-center text-sm text-muted-foreground border-t border-border pt-4">
+              <p>&copy; 2026 Protocolo Resgate. Todos os direitos reservados.</p>
+            </div>
           </div>
         </div>
       </footer>
