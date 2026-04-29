@@ -111,7 +111,7 @@ export default function Home() {
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed animate-fadeInUp" style={{ animationDelay: "0.2s" }}>
-              Sua última grande chance de construir patrimônio para sua aposentadoria depois dos 50, de forma segura e
+              Pode ser sua última grande chance de construir patrimônio para sua aposentadoria depois dos 50, de forma segura e
               <span className="accent-text"> começando do zero.</span>
             </p>
 
@@ -169,7 +169,7 @@ export default function Home() {
             <div className={`mb-16 transition-all duration-700 ${visibleSections["realidade"] ? "animate-fadeInUp" : "opacity-0"}`} style={{ animationDelay: "0.1s" }}>
               <h3 className="text-2xl font-bold mb-6 text-primary">A Juventude e o "Milagre" que Ficou para Trás</h3>
               <p className="text-lg leading-relaxed text-muted-foreground mb-4">
-                Houve um tempo em que o caminho para uma aposentadoria tranquila parecia simples. Na juventude, o tempo era o seu maior ativo. Poucas centenas de reais poupadas mensalmente, sob o efeito dos juros compostos, teriam o poder de se transformar em uma fortuna ao longo de décadas.
+                Houve um tempo em que o caminho para uma aposentadoria tranquila parecia simples. Na juventude, o tempo era o seu maior ativo. Poucos reais poupados mensalmente, sob o efeito dos juros compostos, teriam o poder de se transformar em uma fortuna ao longo de décadas.
               </p>
               <p className="text-lg leading-relaxed">
                 Esse é o <span className="font-semibold text-primary">"milagre"</span> que muitos deixaram passar enquanto priorizavam as urgências do dia a dia.
@@ -194,7 +194,7 @@ export default function Home() {
 
             {/* Subsection 3 */}
             <div className={`mb-16 transition-all duration-700 ${visibleSections["realidade"] ? "animate-fadeInUp" : "opacity-0"}`} style={{ animationDelay: "0.3s" }}>
-              <h3 className="text-2xl font-bold mb-6 text-primary">O Mito do INSS: Um Barco que Está Afundando</h3>
+              <h3 className="text-2xl font-bold mb-6 text-primary">O Mito do INSS: Um Barco que Parece Estar Afundando</h3>
               <p className="text-lg leading-relaxed text-muted-foreground mb-6">
                 Se a sua esperança é o sistema público, o cenário é ainda mais alarmante. O INSS tornou-se um jogo onde as regras mudam sempre que você está prestes a ganhar:
               </p>
@@ -293,7 +293,7 @@ export default function Home() {
             </h2>
 
             <p className={`text-lg leading-relaxed mb-8 transition-all duration-700 ${visibleSections["solucao"] ? "animate-fadeInUp" : "opacity-0"}`}>
-              Mentoria prática desenhada para quem nunca investiu em ações e quer usar todo o sobe e desce da bolsa a seu favor. Minha missão é te mostrar como mudar o jogo através de uma visão tática das oportunidades que o mercado oferece, focando no crescimento exponencial do seu capital para a aposentadoria, com risco totalmente controlado.
+              Auxiliar você, de forma prática, a usar todo o sobe e desce da bolsa a seu favor. Minha missão é te mostrar como mudar o jogo através de uma visão tática das oportunidades que o mercado oferece, focando no crescimento exponencial do seu capital para a aposentadoria, com risco totalmente controlado.
             </p>
 
             <div className={`bg-primary/5 border border-primary/20 rounded-lg p-8 transition-all duration-700 hover-lift animate-borderGlow ${visibleSections["solucao"] ? "animate-fadeInUp" : "opacity-0"}`}>
@@ -318,7 +318,7 @@ export default function Home() {
           </h2>
 
           <p className={`text-lg text-center mb-16 max-w-2xl mx-auto transition-all duration-700 ${visibleSections["plano"] ? "animate-fadeInUp" : "opacity-0"}`}>
-            Esqueça o caos das notícias e o vício em telas de computador. Nossa operação é simples, objetiva e exige apenas alguns minutos da sua semana.
+            Esqueça o caos das notícias e o vício em telas de computador. Nossa operação é simples, objetiva e exige apenas alguns minutos da sua semana ou mês.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -331,12 +331,12 @@ export default function Home() {
               {
                 icon: Users,
                 title: "2. Treinamento Tático ao Vivo",
-                desc: "4 encontros de 1h30m cada, por semana, no primeiro mês + 1 encontro mensal, todo mês, durante 5 meses, sempre em grupos de no máximo 5 alunos, para tirar dúvidas em tempo real e acompanhamento de perto.",
+                desc: "4 encontros de 1h30m cada, por semana, no primeiro mês + 1 encontro mensal, todo mês, durante 5 meses, sempre em grupos de no máximo 5 alunos, para tirar dúvidas em tempo real e te acompanhar de perto.",
               },
               {
                 icon: Shield,
                 title: "3. Acompanhamento de Elite",
-                desc: "6 meses de suporte direto via WhatsApp após a mentoria para monitorarmos seus resultados.",
+                desc: "6 meses de suporte direto via WhatsApp após a mentoria para monitoramento da execução e dos seus resultados.",
               },
             ].map((item, i) => (
               <div
@@ -389,14 +389,14 @@ export default function Home() {
               <div className="space-y-3">
                 {[
                   "Nunca investiu na vida e quer começar agora",
-                  "Só investe em Renda Fixa e quer crescimento exponencial",
+                  "Só investe em Renda Fixa e quer usar o poder da renda variável",
                   "Quer recuperar o tempo perdido após os 50",
                   "Busca uma chance de ter uma aposentadoria mais tranquila e segura",
                   "Quer aproveitar as oportunidades do mercado de ações, sem abrir mão da segurança",
                   "Para quem morre de medo do mercado de ações",
                   "Para quem é conservador e não abre mão da segurança",
-                  "Não dispõe de muito dinheiro para começar",
-                  "Quer se comprometer de verdade com seu resgate",
+                  "Para quem não dispõe de muito dinheiro para começar",
+                  "Para quem quer se comprometer de verdade com seu resgate",
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-3 hover-lift transition-all">
                     <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5 animate-pulseGlow" />
@@ -446,7 +446,7 @@ export default function Home() {
           </h2>
 
           <p className="text-lg text-primary-foreground/90 mb-12 max-w-2xl mx-auto animate-fadeInUp">
-            Você pode continuar que ainda dá tempo de se aposentar com seu salário ou apenas com a renda fixa, ou pode iniciar o seu Protocolo Resgate hoje mesmo.
+            Você pode continuar no caminho em que está e abrir mão de seus sonhos de uma aposentadoria merecida depois de tantos anos de trabalho ou pode iniciar o seu Protocolo Resgate hoje mesmo.
           </p>
 
           <p className="text-2xl font-bold text-primary-foreground mb-12 animate-fadeInUp">
