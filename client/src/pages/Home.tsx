@@ -253,9 +253,6 @@ export default function Home() {
                   <span className="text-primary">OPERAÇÃO APOSENTADORIA</span>
                 </div>
               </div>
-              <p className="text-lg leading-relaxed mb-6 text-muted-foreground">
-                Sua última grande chance de construir patrimônio para sua aposentadoria depois dos 50, de forma segura.
-              </p>
               <p className="text-lg leading-relaxed mb-8">
                 Se você não começou aos 20, você precisa de uma <span className="font-bold text-primary">estratégia de aceleração</span>. O Protocolo Resgate foi criado para resgatar o potencial do seu capital que está parado, transformando o pouco tempo que resta em uma vantagem tática através do mercado de ações, com segurança e inteligência comportamental.
               </p>
