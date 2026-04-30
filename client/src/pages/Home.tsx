@@ -132,7 +132,8 @@ export default function Home() {
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed animate-fadeInUp" style={{ animationDelay: "0.2s" }}>
-              Se você não começou aos 20, você precisa de uma <span className="font-bold text-primary">estratégia de aceleração</span>. O Protocolo Resgate foi criado para resgatar o potencial do seu capital que está parado, transformando o pouco tempo que resta em uma vantagem tática através do mercado de ações, com segurança e inteligência comportamental.
+              Pode ser sua última grande chance de construir patrimônio para sua aposentadoria depois dos 50, de forma segura e
+              <span className="accent-text"> começando do zero.</span>
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeInUp" style={{ animationDelay: "0.3s" }}>
@@ -252,11 +253,8 @@ export default function Home() {
                   <span className="text-primary">OPERAÇÃO APOSENTADORIA</span>
                 </div>
               </div>
-              <p className="text-lg leading-relaxed mb-6 text-muted-foreground">
-                Sua última grande chance de construir patrimônio para sua aposentadoria depois dos 50, de forma segura.
-              </p>
-              <p className="text-lg leading-relaxed mb-8">
-                Se você não começou aos 20, você precisa de uma <span className="font-bold text-primary">estratégia de aceleração</span>. O Protocolo Resgate foi criado para resgatar o potencial do seu capital que está parado, transformando o pouco tempo que resta em uma vantagem tática através do mercado de ações, com segurança e inteligência comportamental.
+              <p className="text-lg leading-relaxed mb-8 text-center text-accent italic">
+                "Mudar sua realidade não tem nada a ver com fórmula mágica, mas com estratégia e disciplina."
               </p>
               <Button className="button-primary group hover-lift shine-effect">
                 Quero Garantir Minha Aposentadoria Agora
