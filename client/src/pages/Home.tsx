@@ -331,6 +331,126 @@ export default function Home() {
         <div className="absolute left-0 top-1/2 h-px w-20 bg-accent transform -translate-y-1/2" />
       </div>
 
+      {/* Dignidade Financeira Section */}
+      <section id="dignidade" data-section="dignidade" className="py-20 md:py-32">
+        <div className="container">
+          <div className="max-w-4xl mx-auto">
+            {/* Opening Statement */}
+            <div className={`mb-12 transition-all duration-700 ${visibleSections["dignidade"] ? "animate-fadeInUp" : "opacity-0"}`}>
+              <p className="text-2xl md:text-3xl font-bold text-center mb-6">
+                <span className="text-accent">O tempo não é mais seu inimigo</span> quando você tem um plano.
+              </p>
+              <p className="text-lg leading-relaxed text-center text-muted-foreground">
+                Você não precisa de uma "tacada de sorte" ou de retornos milagrosos. Você precisa de um método que resgate sua tranquilidade e proteja o que você ainda vai construir.
+              </p>
+            </div>
+
+            {/* The Problem */}
+            <div className={`bg-destructive/10 border border-destructive/30 rounded-lg p-8 mb-12 transition-all duration-700 hover-lift ${visibleSections["dignidade"] ? "animate-fadeInUp" : "opacity-0"}`}
+              style={{ animationDelay: "0.1s" }}
+            >
+              <p className="text-lg leading-relaxed">
+                Muitas pessoas chegam aos 50 anos com uma sensação amarga: a de que <span className="font-bold text-destructive">"perderam o bonde" dos investimentos</span>. Olham para trás e veem oportunidades perdidas; olham para a frente e sentem o peso da incerteza.
+              </p>
+            </div>
+
+            {/* The Reframe */}
+            <div className={`bg-primary/10 border border-primary/30 rounded-lg p-8 mb-12 transition-all duration-700 hover-lift ${visibleSections["dignidade"] ? "animate-fadeInUp" : "opacity-0"}`}
+              style={{ animationDelay: "0.2s" }}
+            >
+              <p className="text-lg leading-relaxed mb-4">
+                Se você sente que sua aposentadoria é um ponto de interrogação, entenda uma coisa:
+              </p>
+              <p className="text-xl font-bold text-primary">
+                O Protocolo Resgate não é sobre transformar você em um trader ou te ensinar a "vencer o mercado".
+              </p>
+            </div>
+
+            {/* The Core Message */}
+            <div className={`text-center mb-16 transition-all duration-700 ${visibleSections["dignidade"] ? "animate-fadeInUp" : "opacity-0"}`}
+              style={{ animationDelay: "0.3s" }}
+            >
+              <p className="text-4xl md:text-5xl font-bold text-accent mb-4">
+                Isso aqui é sobre
+              </p>
+              <p className="text-5xl md:text-6xl font-black text-accent" style={{
+                backgroundImage: "linear-gradient(135deg, #D4AF37 0%, #FFE066 100%)",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
+                backgroundClip: "text"
+              }}>
+                Dignidade Financeira
+              </p>
+            </div>
+
+            {/* The Three Pillars */}
+            <div className={`mb-12 transition-all duration-700 ${visibleSections["dignidade"] ? "animate-fadeInUp" : "opacity-0"}`}
+              style={{ animationDelay: "0.4s" }}
+            >
+              <p className="text-lg font-semibold text-center mb-12 text-muted-foreground">
+                Nesta mentoria, nós vamos construir o seu Plano de Operação Aposentadoria focado em três pilares que o mercado tradicional ignora:
+              </p>
+
+              <div className="grid md:grid-cols-3 gap-8">
+                {[
+                  {
+                    icon: "🔄",
+                    title: "A Reversão de Cenário",
+                    desc: "Vamos identificar onde seu dinheiro está \"sangrando\" e redirecionar seus recursos para ativos que geram renda real, corrigindo a rota enquanto ainda há tempo."
+                  },
+                  {
+                    icon: "📊",
+                    title: "Consistência sobre Euforia",
+                    desc: "Chega de apostas. Vamos implementar uma estratégia de fluxo de caixa mensal que permita que você saiba exatamente quanto terá no futuro, sem depender da sorte."
+                  },
+                  {
+                    icon: "🛡️",
+                    title: "A Blindagem dos Sonhos",
+                    desc: "Investir aos 50+ exige uma proteção que um jovem de 20 não precisa. Nosso foco é garantir que o seu patrimônio sobreviva a crises para que os seus planos de descanso, viagens e legado permaneçam vivos e intocáveis."
+                  }
+                ].map((pillar, i) => (
+                  <div
+                    key={i}
+                    className="bg-card border border-border rounded-lg p-6 transition-all duration-500 hover-lift hover:border-accent"
+                    style={{ animationDelay: `${0.5 + i * 0.1}s` }}
+                  >
+                    <div className="text-4xl mb-4">{pillar.icon}</div>
+                    <h3 className="text-xl font-bold mb-3 text-primary">{pillar.title}</h3>
+                    <p className="text-muted-foreground leading-relaxed">{pillar.desc}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* The Promise */}
+            <div className={`bg-accent/10 border border-accent/30 rounded-lg p-8 mb-12 transition-all duration-700 hover-lift ${visibleSections["dignidade"] ? "animate-fadeInUp" : "opacity-0"}`}
+              style={{ animationDelay: "0.8s" }}
+            >
+              <p className="text-lg leading-relaxed text-center italic">
+                Você não está apenas investindo em números. Você está comprando o direito de <span className="font-bold text-accent">dormir tranquilo</span>, sabendo que o seu "eu" do futuro terá o conforto que você tanto trabalhou para construir.
+              </p>
+            </div>
+
+            {/* The Line in the Sand */}
+            <div className={`transition-all duration-700 ${visibleSections["dignidade"] ? "animate-fadeInUp" : "opacity-0"}`}
+              style={{ animationDelay: "0.9s" }}
+            >
+              <p className="text-lg leading-relaxed mb-6">
+                <span className="font-bold text-primary">O Protocolo Resgate é a linha na areia:</span> o momento onde você para de se preocupar com o que não fez e assume o controle total do que fará daqui por diante.
+              </p>
+              <p className="text-xl font-semibold text-accent">
+                O Protocolo é muito mais do que uma mentoria, é uma <span className="font-black">filosofia de como tentar virar o jogo a seu favor estrategicamente</span>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Divider */}
+      <div className="relative h-px bg-border">
+        <div className="absolute left-0 top-1/2 h-px w-20 bg-accent transform -translate-y-1/2" />
+      </div>
+
       {/* O Plano Section */}
       <section id="o-plano" data-section="plano" className="py-20 md:py-32 bg-secondary/30">
         <div className="container">
