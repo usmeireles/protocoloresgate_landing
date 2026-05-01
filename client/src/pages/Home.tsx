@@ -527,46 +527,46 @@ export default function Home() {
           </div>
           
           {/* O que você ganha */}
-          <div className="mt-16 space-y-8">
-            <div>
-              <h4 className="text-xl font-bold mb-6">Ao fazer a mentoria você ganha:</h4>
+          <div className="mt-16 grid md:grid-cols-2 gap-8">
+            <div className="bg-primary/10 border-2 border-primary rounded-lg p-8 hover-lift">
+              <h4 className="text-xl font-bold mb-6 text-primary">Ao fazer a mentoria você ganha:</h4>
               <ul className="space-y-4 text-base leading-relaxed">
                 <li className="flex items-start gap-3">
-                  <span className="text-3xl">✓</span>
+                  <span className="text-3xl text-primary">✓</span>
                   <span>Organização financeira geral</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-3xl">✓</span>
+                  <span className="text-3xl text-primary">✓</span>
                   <span>Planejamento personalizado para sua aposentadoria</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-3xl">✓</span>
+                  <span className="text-3xl text-primary">✓</span>
                   <span>Aprendizagem de estratégias no mercado de ações para acelerar o processo</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-3xl">✓</span>
+                  <span className="text-3xl text-primary">✓</span>
                   <span>Alinhamento comportamental</span>
                 </li>
               </ul>
             </div>
             
-            <div>
-              <h4 className="text-xl font-bold mb-6">Mais especificamente:</h4>
+            <div className="bg-accent/10 border-2 border-accent rounded-lg p-8 hover-lift">
+              <h4 className="text-xl font-bold mb-6 text-accent">Mais especificamente:</h4>
               <ul className="space-y-4 text-base leading-relaxed">
                 <li className="flex items-start gap-3">
-                  <span className="text-3xl">•</span>
+                  <span className="text-3xl text-accent">•</span>
                   <span>1 sessão individual com 2h de duração para montagem do seu plano</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-3xl">•</span>
+                  <span className="text-3xl text-accent">•</span>
                   <span>+6 reuniões mensais para acompanhamento individualizado com 1h de duração</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-3xl">•</span>
+                  <span className="text-3xl text-accent">•</span>
                   <span>Além de todos os encontros e dos 6 meses de suporte pelo WhatsApp</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-3xl">•</span>
+                  <span className="text-3xl text-accent">•</span>
                   <span>Totalizando 12 meses de programa</span>
                 </li>
               </ul>
