@@ -522,43 +522,43 @@ export default function Home() {
             </p>
             
             {/* O que você ganha */}
-            <h4 className="text-lg font-bold text-primary mb-4 mt-8">Ao fazer a mentoria você ganha:</h4>
-            <ul className="space-y-2 text-base leading-relaxed mb-8">
-              <li className="flex items-start gap-2">
-                <span className="text-primary font-bold">✓</span>
-                <span><span className="font-bold text-primary">Organização financeira geral</span></span>
+            <h4 className="text-lg font-bold mb-6 mt-8">Ao fazer a mentoria você ganha:</h4>
+            <ul className="space-y-3 text-base leading-relaxed mb-8">
+              <li className="flex items-start gap-3">
+                <span className="text-2xl">✓</span>
+                <span>Organização financeira geral</span>
               </li>
-              <li className="flex items-start gap-2">
-                <span className="text-primary font-bold">✓</span>
-                <span><span className="font-bold text-primary">Planejamento personalizado</span> para sua aposentadoria</span>
+              <li className="flex items-start gap-3">
+                <span className="text-2xl">✓</span>
+                <span>Planejamento personalizado para sua aposentadoria</span>
               </li>
-              <li className="flex items-start gap-2">
-                <span className="text-primary font-bold">✓</span>
-                <span><span className="font-bold text-primary">Aprendizagem de estratégias</span> no mercado de ações para acelerar o processo</span>
+              <li className="flex items-start gap-3">
+                <span className="text-2xl">✓</span>
+                <span>Aprendizagem de estratégias no mercado de ações para acelerar o processo</span>
               </li>
-              <li className="flex items-start gap-2">
-                <span className="text-primary font-bold">✓</span>
-                <span><span className="font-bold text-primary">Alinhamento comportamental</span></span>
+              <li className="flex items-start gap-3">
+                <span className="text-2xl">✓</span>
+                <span>Alinhamento comportamental</span>
               </li>
             </ul>
             
-            <h4 className="text-lg font-bold text-accent mb-4">Mais especificamente:</h4>
-            <ul className="space-y-2 text-base leading-relaxed mb-8">
-              <li className="flex items-start gap-2">
-                <span className="text-accent font-bold">•</span>
-                <span><span className="font-bold text-accent">1 sessão individual com 2h</span> de duração para montagem do seu plano</span>
+            <h4 className="text-lg font-bold mb-6">Mais especificamente:</h4>
+            <ul className="space-y-3 text-base leading-relaxed mb-8">
+              <li className="flex items-start gap-3">
+                <span className="text-2xl">•</span>
+                <span>1 sessão individual com 2h de duração para montagem do seu plano</span>
               </li>
-              <li className="flex items-start gap-2">
-                <span className="text-accent font-bold">•</span>
-                <span><span className="font-bold text-accent">+6 reuniões mensais</span> para acompanhamento individualizado com 1h de duração</span>
+              <li className="flex items-start gap-3">
+                <span className="text-2xl">•</span>
+                <span>+6 reuniões mensais para acompanhamento individualizado com 1h de duração</span>
               </li>
-              <li className="flex items-start gap-2">
-                <span className="text-accent font-bold">•</span>
-                <span>Além de todos os encontros e dos <span className="font-bold text-accent">6 meses de suporte pelo WhatsApp</span></span>
+              <li className="flex items-start gap-3">
+                <span className="text-2xl">•</span>
+                <span>Além de todos os encontros e dos 6 meses de suporte pelo WhatsApp</span>
               </li>
-              <li className="flex items-start gap-2">
-                <span className="text-accent font-bold">•</span>
-                <span><span className="font-bold text-accent">Totalizando 12 meses de programa</span></span>
+              <li className="flex items-start gap-3">
+                <span className="text-2xl">•</span>
+                <span>Totalizando 12 meses de programa</span>
               </li>
             </ul>
             <a href="https://wa.me/5531982910530?text=Ol%C3%A1%20Ubiratan!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Protocolo%20Resgate%20e%20o%20b%u00f4nus%20de%20planejamento%20financeiro." target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-accent text-accent-foreground px-8 py-3 rounded-lg font-bold hover:bg-accent/90 transition-all duration-300 hover-lift">
