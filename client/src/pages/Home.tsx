@@ -125,9 +125,8 @@ export default function Home() {
               </span>
             </div>
 
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight animate-fadeInUp flex flex-wrap justify-center gap-2" style={{ animationDelay: "0.1s" }}>
-              <span>Protocolo Resgate:</span>
-              <span className="accent-text gradient-text">Operação Aposentadoria</span>
+            <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight animate-fadeInUp" style={{ animationDelay: "0.1s" }}>
+              Protocolo Resgate: <span className="accent-text gradient-text">Operação Aposentadoria</span>
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed animate-fadeInUp" style={{ animationDelay: "0.2s" }}>
