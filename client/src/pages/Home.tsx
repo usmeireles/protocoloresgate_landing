@@ -332,48 +332,51 @@ export default function Home() {
       </div>
 
       {/* Dignidade Financeira Section */}
-      <section id="dignidade" data-section="dignidade" className="py-20 md:py-32">
+      <section id="dignidade" data-section="dignidade" className="py-32 md:py-48 bg-gradient-to-b from-transparent via-primary/5 to-transparent">
         <div className="container">
-          <div className="max-w-4xl mx-auto">
-            {/* Opening Statement */}
-            <div className={`mb-12 transition-all duration-700 ${visibleSections["dignidade"] ? "animate-fadeInUp" : "opacity-0"}`}>
-              <p className="text-2xl md:text-3xl font-bold text-center mb-6">
-                <span className="text-accent">O tempo não é mais seu inimigo</span> quando você tem um plano.
+          <div className="max-w-5xl mx-auto space-y-24">
+            {/* Opening Statement - Full Width */}
+            <div className={`transition-all duration-700 ${visibleSections["dignidade"] ? "animate-fadeInUp" : "opacity-0"}`}>
+              <p className="text-3xl md:text-5xl font-bold text-center mb-8 leading-tight">
+                <span className="text-accent">O tempo não é mais seu inimigo</span>
+                <br />
+                quando você tem um plano.
               </p>
-              <p className="text-lg leading-relaxed text-center text-muted-foreground">
+              <p className="text-xl leading-relaxed text-center text-muted-foreground max-w-3xl mx-auto">
                 Você não precisa de uma "tacada de sorte" ou de retornos milagrosos. Você precisa de um método que resgate sua tranquilidade e proteja o que você ainda vai construir.
               </p>
             </div>
 
-            {/* The Problem */}
-            <div className={`bg-destructive/10 border border-destructive/30 rounded-lg p-8 mb-12 transition-all duration-700 hover-lift ${visibleSections["dignidade"] ? "animate-fadeInUp" : "opacity-0"}`}
+            {/* The Problem - Left Aligned Box */}
+            <div className={`transition-all duration-700 ${visibleSections["dignidade"] ? "animate-fadeInUp" : "opacity-0"}`}
               style={{ animationDelay: "0.1s" }}
             >
-              <p className="text-lg leading-relaxed">
-                Muitas pessoas chegam aos 50 anos com uma sensação amarga: a de que <span className="font-bold text-destructive">"perderam o bonde" dos investimentos</span>. Olham para trás e veem oportunidades perdidas; olham para a frente e sentem o peso da incerteza.
-              </p>
+              <div className="bg-destructive/15 border-l-4 border-destructive pl-8 pr-8 py-8 rounded-r-lg hover-lift">
+                <p className="text-xl leading-relaxed">
+                  Muitas pessoas chegam aos 50 anos com uma sensação amarga: a de que <span className="font-bold text-destructive text-2xl">"perderam o bonde" dos investimentos</span>. Olham para trás e veem oportunidades perdidas; olham para a frente e sentem o peso da incerteza.
+                </p>
+              </div>
             </div>
 
-            {/* The Reframe */}
-            <div className={`bg-primary/10 border border-primary/30 rounded-lg p-8 mb-12 transition-all duration-700 hover-lift ${visibleSections["dignidade"] ? "animate-fadeInUp" : "opacity-0"}`}
+            {/* The Reframe - Right Aligned Box */}
+            <div className={`transition-all duration-700 ${visibleSections["dignidade"] ? "animate-fadeInUp" : "opacity-0"}`}
               style={{ animationDelay: "0.2s" }}
             >
-              <p className="text-lg leading-relaxed mb-4">
-                Se você sente que sua aposentadoria é um ponto de interrogação, entenda uma coisa:
-              </p>
-              <p className="text-xl font-bold text-primary">
-                O Protocolo Resgate não é sobre transformar você em um trader ou te ensinar a "vencer o mercado".
-              </p>
+              <div className="bg-primary/15 border-r-4 border-primary pl-8 pr-8 py-8 rounded-l-lg hover-lift ml-auto max-w-3xl">
+                <p className="text-lg leading-relaxed mb-6">
+                  Se você sente que sua aposentadoria é um ponto de interrogação, entenda uma coisa:
+                </p>
+                <p className="text-2xl font-bold text-primary">
+                  O Protocolo Resgate não é sobre transformar você em um trader ou te ensinar a "vencer o mercado".
+                </p>
+              </div>
             </div>
 
-            {/* The Core Message */}
-            <div className={`text-center mb-16 transition-all duration-700 ${visibleSections["dignidade"] ? "animate-fadeInUp" : "opacity-0"}`}
+            {/* The Core Message - Centered, Massive */}
+            <div className={`text-center transition-all duration-700 ${visibleSections["dignidade"] ? "animate-fadeInUp" : "opacity-0"}`}
               style={{ animationDelay: "0.3s" }}
             >
-              <p className="text-4xl md:text-5xl font-bold text-accent mb-4">
-                Isso aqui é sobre
-              </p>
-              <p className="text-5xl md:text-6xl font-black text-accent" style={{
+              <p className="text-7xl md:text-8xl font-black text-accent leading-tight" style={{
                 backgroundImage: "linear-gradient(135deg, #D4AF37 0%, #FFE066 100%)",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
@@ -383,64 +386,79 @@ export default function Home() {
               </p>
             </div>
 
-            {/* The Three Pillars */}
-            <div className={`mb-12 transition-all duration-700 ${visibleSections["dignidade"] ? "animate-fadeInUp" : "opacity-0"}`}
+            {/* The Three Pillars - Varied Layouts */}
+            <div className={`transition-all duration-700 ${visibleSections["dignidade"] ? "animate-fadeInUp" : "opacity-0"}`}
               style={{ animationDelay: "0.4s" }}
             >
-              <p className="text-lg font-semibold text-center mb-12 text-muted-foreground">
+              <p className="text-2xl font-semibold text-center mb-16 text-muted-foreground leading-relaxed">
                 Nesta mentoria, nós vamos construir o seu Plano de Operação Aposentadoria focado em três pilares que o mercado tradicional ignora:
               </p>
 
-              <div className="grid md:grid-cols-3 gap-8">
+              <div className="space-y-12">
                 {[
                   {
                     icon: "🔄",
                     title: "A Reversão de Cenário",
-                    desc: "Vamos identificar onde seu dinheiro está \"sangrando\" e redirecionar seus recursos para ativos que geram renda real, corrigindo a rota enquanto ainda há tempo."
+                    desc: "Vamos identificar onde seu dinheiro está \"sangrando\" e redirecionar seus recursos para ativos que geram renda real, corrigindo a rota enquanto ainda há tempo.",
+                    style: "bg-gradient-to-r from-primary/20 to-transparent border-l-4 border-primary"
                   },
                   {
                     icon: "📊",
                     title: "Consistência sobre Euforia",
-                    desc: "Chega de apostas. Vamos implementar uma estratégia de fluxo de caixa mensal que permita que você saiba exatamente quanto terá no futuro, sem depender da sorte."
+                    desc: "Chega de apostas. Vamos implementar uma estratégia de fluxo de caixa mensal que permita que você saiba exatamente quanto terá no futuro, sem depender da sorte.",
+                    style: "bg-gradient-to-l from-accent/20 to-transparent border-r-4 border-accent"
                   },
                   {
                     icon: "🛡️",
                     title: "A Blindagem dos Sonhos",
-                    desc: "Investir aos 50+ exige uma proteção que um jovem de 20 não precisa. Nosso foco é garantir que o seu patrimônio sobreviva a crises para que os seus planos de descanso, viagens e legado permaneçam vivos e intocáveis."
+                    desc: "Investir aos 50+ exige uma proteção que um jovem de 20 não precisa. Nosso foco é garantir que o seu patrimônio sobreviva a crises para que os seus planos de descanso, viagens e legado permaneçam vivos e intocáveis.",
+                    style: "bg-gradient-to-r from-secondary/20 to-transparent border-l-4 border-secondary"
                   }
                 ].map((pillar, i) => (
                   <div
                     key={i}
-                    className="bg-card border border-border rounded-lg p-6 transition-all duration-500 hover-lift hover:border-accent"
+                    className={`${pillar.style} p-8 rounded-lg hover-lift transition-all duration-500`}
                     style={{ animationDelay: `${0.5 + i * 0.1}s` }}
                   >
-                    <div className="text-4xl mb-4">{pillar.icon}</div>
-                    <h3 className="text-xl font-bold mb-3 text-primary">{pillar.title}</h3>
-                    <p className="text-muted-foreground leading-relaxed">{pillar.desc}</p>
+                    <div className="flex gap-6 items-start">
+                      <div className="text-6xl flex-shrink-0">{pillar.icon}</div>
+                      <div>
+                        <h3 className="text-3xl font-bold mb-4 text-primary">{pillar.title}</h3>
+                        <p className="text-lg leading-relaxed text-muted-foreground">{pillar.desc}</p>
+                      </div>
+                    </div>
                   </div>
                 ))}
               </div>
             </div>
 
-            {/* The Promise */}
-            <div className={`bg-accent/10 border border-accent/30 rounded-lg p-8 mb-12 transition-all duration-700 hover-lift ${visibleSections["dignidade"] ? "animate-fadeInUp" : "opacity-0"}`}
+            {/* The Promise - Full Width Highlight */}
+            <div className={`transition-all duration-700 ${visibleSections["dignidade"] ? "animate-fadeInUp" : "opacity-0"}`}
               style={{ animationDelay: "0.8s" }}
             >
-              <p className="text-lg leading-relaxed text-center italic">
-                Você não está apenas investindo em números. Você está comprando o direito de <span className="font-bold text-accent">dormir tranquilo</span>, sabendo que o seu "eu" do futuro terá o conforto que você tanto trabalhou para construir.
-              </p>
+              <div className="bg-accent/20 border-2 border-accent rounded-2xl p-12 text-center hover-lift">
+                <p className="text-2xl leading-relaxed italic">
+                  Você não está apenas investindo em números. Você está comprando o direito de <span className="font-black text-accent text-3xl">dormir tranquilo</span>, sabendo que o seu "eu" do futuro terá o conforto que você tanto trabalhou para construir.
+                </p>
+              </div>
             </div>
 
-            {/* The Line in the Sand */}
+            {/* The Line in the Sand - Bold Closing */}
             <div className={`transition-all duration-700 ${visibleSections["dignidade"] ? "animate-fadeInUp" : "opacity-0"}`}
               style={{ animationDelay: "0.9s" }}
             >
-              <p className="text-lg leading-relaxed mb-6">
-                <span className="font-bold text-primary">O Protocolo Resgate é a linha na areia:</span> o momento onde você para de se preocupar com o que não fez e assume o controle total do que fará daqui por diante.
-              </p>
-              <p className="text-xl font-semibold text-accent">
-                O Protocolo é muito mais do que uma mentoria, é uma <span className="font-black">filosofia de como tentar virar o jogo a seu favor estrategicamente</span>.
-              </p>
+              <div className="space-y-6 text-center">
+                <p className="text-2xl leading-relaxed">
+                  <span className="font-black text-primary text-3xl">O Protocolo Resgate é a linha na areia:</span>
+                  <br />
+                  o momento onde você para de se preocupar com o que não fez e assume o controle total do que fará daqui por diante.
+                </p>
+                <p className="text-3xl font-black text-accent leading-relaxed">
+                  O Protocolo é muito mais do que uma mentoria.
+                  <br />
+                  É uma filosofia de como tentar virar o jogo a seu favor estrategicamente.
+                </p>
+              </div>
             </div>
           </div>
         </div>
