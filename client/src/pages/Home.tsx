@@ -522,49 +522,45 @@ export default function Home() {
             </p>
             
             {/* O que você ganha */}
-            <div className="bg-primary/10 border-l-4 border-primary rounded-r-lg p-6 text-left mb-8">
-              <h4 className="text-lg font-bold text-primary mb-4">Ao fazer a mentoria você ganha:</h4>
-              <ul className="space-y-2 text-base leading-relaxed">
-                <li className="flex items-start gap-2">
-                  <span className="text-accent font-bold">✓</span>
-                  <span><span className="font-bold text-primary">Organização financeira geral</span></span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-accent font-bold">✓</span>
-                  <span><span className="font-bold text-primary">Planejamento personalizado</span> para sua aposentadoria</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-accent font-bold">✓</span>
-                  <span><span className="font-bold text-primary">Aprendizagem de estratégias</span> no mercado de ações para acelerar o processo</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-accent font-bold">✓</span>
-                  <span><span className="font-bold text-primary">Alinhamento comportamental</span></span>
-                </li>
-              </ul>
-            </div>
+            <h4 className="text-lg font-bold text-primary mb-4 mt-8">Ao fazer a mentoria você ganha:</h4>
+            <ul className="space-y-2 text-base leading-relaxed mb-8">
+              <li className="flex items-start gap-2">
+                <span className="text-primary font-bold">✓</span>
+                <span><span className="font-bold text-primary">Organização financeira geral</span></span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-primary font-bold">✓</span>
+                <span><span className="font-bold text-primary">Planejamento personalizado</span> para sua aposentadoria</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-primary font-bold">✓</span>
+                <span><span className="font-bold text-primary">Aprendizagem de estratégias</span> no mercado de ações para acelerar o processo</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-primary font-bold">✓</span>
+                <span><span className="font-bold text-primary">Alinhamento comportamental</span></span>
+              </li>
+            </ul>
             
-            <div className="bg-accent/10 border-r-4 border-accent rounded-l-lg p-6 text-left mb-8">
-              <h4 className="text-lg font-bold text-accent mb-4">Mais especificamente:</h4>
-              <ul className="space-y-2 text-base leading-relaxed">
-                <li className="flex items-start gap-2">
-                  <span className="text-accent font-bold">•</span>
-                  <span><span className="font-bold text-accent">1 sessão individual com 2h</span> de duração para montagem do seu plano</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-accent font-bold">•</span>
-                  <span><span className="font-bold text-accent">+6 reuniões mensais</span> para acompanhamento individualizado com 1h de duração</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-accent font-bold">•</span>
-                  <span>Além de todos os encontros e dos <span className="font-bold text-accent">6 meses de suporte pelo WhatsApp</span></span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-accent font-bold">•</span>
-                  <span><span className="font-bold text-accent">Totalizando 12 meses de programa</span></span>
-                </li>
-              </ul>
-            </div>
+            <h4 className="text-lg font-bold text-accent mb-4">Mais especificamente:</h4>
+            <ul className="space-y-2 text-base leading-relaxed mb-8">
+              <li className="flex items-start gap-2">
+                <span className="text-accent font-bold">•</span>
+                <span><span className="font-bold text-accent">1 sessão individual com 2h</span> de duração para montagem do seu plano</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-accent font-bold">•</span>
+                <span><span className="font-bold text-accent">+6 reuniões mensais</span> para acompanhamento individualizado com 1h de duração</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-accent font-bold">•</span>
+                <span>Além de todos os encontros e dos <span className="font-bold text-accent">6 meses de suporte pelo WhatsApp</span></span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-accent font-bold">•</span>
+                <span><span className="font-bold text-accent">Totalizando 12 meses de programa</span></span>
+              </li>
+            </ul>
             <a href="https://wa.me/5531982910530?text=Ol%C3%A1%20Ubiratan!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Protocolo%20Resgate%20e%20o%20b%u00f4nus%20de%20planejamento%20financeiro." target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-accent text-accent-foreground px-8 py-3 rounded-lg font-bold hover:bg-accent/90 transition-all duration-300 hover-lift">
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-5.031 1.378c-3.055 2.2-5.02 5.97-5.02 9.981 0 1.396.264 2.823.786 4.171L2.585 21.99l4.693-1.232c1.228.664 2.561 1.01 3.886 1.01 5.487 0 9.86-4.157 10.948-9.869.846-4.537-.649-8.276-4.038-10.456-1.974-1.422-4.592-2.205-7.214-2.16zm8.139 17.013h-.003a10.976 10.976 0 01-1.571-.08c-.548-.052-1.045-.174-1.479-.358l-.423.11 1.41-5.352c.47 1.577 1.314 3.019 2.634 4.11.826.677 1.623 1.078 2.428 1.479zm5.355-18.186C19.761 1.993 15.017 0 9.936 0 4.595 0 .16 4.334.16 9.675c0 1.708.379 3.342 1.076 4.788L0 24l5.11-1.345C6.51 23.387 8.163 24 9.936 24c5.341 0 9.776-4.335 9.776-9.675 0-2.591-.744-5.01-2.162-7.112z"/></svg>
               Quero Participar do Programa
