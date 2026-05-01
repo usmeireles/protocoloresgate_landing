@@ -126,9 +126,7 @@ export default function Home() {
             </div>
 
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight animate-fadeInUp" style={{ animationDelay: "0.1s" }}>
-              Protocolo Resgate:
-              <br />
-              <span className="accent-text gradient-text">Operação Aposentadoria</span>
+              Protocolo Resgate: <span className="accent-text gradient-text">Operação Aposentadoria</span>
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed animate-fadeInUp" style={{ animationDelay: "0.2s" }}>
@@ -569,7 +567,7 @@ export default function Home() {
             </div>
             <a href="https://wa.me/5531982910530?text=Ol%C3%A1%20Ubiratan!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Protocolo%20Resgate%20e%20o%20b%u00f4nus%20de%20planejamento%20financeiro." target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-accent text-accent-foreground px-8 py-3 rounded-lg font-bold hover:bg-accent/90 transition-all duration-300 hover-lift">
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-5.031 1.378c-3.055 2.2-5.02 5.97-5.02 9.981 0 1.396.264 2.823.786 4.171L2.585 21.99l4.693-1.232c1.228.664 2.561 1.01 3.886 1.01 5.487 0 9.86-4.157 10.948-9.869.846-4.537-.649-8.276-4.038-10.456-1.974-1.422-4.592-2.205-7.214-2.16zm8.139 17.013h-.003a10.976 10.976 0 01-1.571-.08c-.548-.052-1.045-.174-1.479-.358l-.423.11 1.41-5.352c.47 1.577 1.314 3.019 2.634 4.11.826.677 1.623 1.078 2.428 1.479zm5.355-18.186C19.761 1.993 15.017 0 9.936 0 4.595 0 .16 4.334.16 9.675c0 1.708.379 3.342 1.076 4.788L0 24l5.11-1.345C6.51 23.387 8.163 24 9.936 24c5.341 0 9.776-4.335 9.776-9.675 0-2.591-.744-5.01-2.162-7.112z"/></svg>
-              Falar com Ubiratan no WhatsApp
+              Quero Participar do Programa
             </a>
           </div>
         </div>
@@ -711,7 +709,7 @@ export default function Home() {
 
             <div className={`transition-all duration-700 ${visibleSections["urgencia"] ? "animate-fadeInUp" : "opacity-0"}`} style={{ animationDelay: "0.4s" }}>
               <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-                Seja sincero: foram os gastos emocionais? As oportunidades ignoradas? O medo que te fez travar na renda fixa enquanto a inflação devorava seu poder de compra? Ou talvez você tenha até acumulado um bom capital, mas começou a queimá-lo antes da hora por falta de visão.
+                Seja sincero: foram os gastos emocionais, as oportunidades ignoradas, o medo que te fez travar na renda fixa enquanto a inflação devorava seu poder de compra, ou talvez você tenha até acumulado um bom capital, mas começou a queimá-lo antes da hora por falta de visão.
               </p>
               <p className="text-lg leading-relaxed font-semibold text-foreground">
                 <span className="text-accent">Tudo isso é comportamento.</span> Sem o alinhamento mental correto, a melhor estratégia do mundo falha. É por isso que o diferencial do Protocolo Resgate é <span className="text-accent">tratar a raiz do problema: sua mentalidade em relação ao dinheiro.</span>
