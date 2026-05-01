@@ -125,21 +125,25 @@ export default function Home() {
               </span>
             </div>
 
-            <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-6xl font-bold mb-6 leading-tight animate-fadeInUp block" style={{ animationDelay: "0.1s" }}>
-              Protocolo Resgate: <span className="accent-text gradient-text">Operação Aposentadoria</span>
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight animate-fadeInUp block" style={{ animationDelay: "0.1s" }}>
+              PROTOCOLO RESGATE:<br />
+              <span className="accent-text gradient-text">Operação</span><br />
+              <span className="accent-text gradient-text">Aposentadoria</span>
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed animate-fadeInUp" style={{ animationDelay: "0.2s" }}>
-              Pode ser sua última grande chance de construir patrimônio para sua aposentadoria depois dos 50, de forma segura e
-              <span className="accent-text"> começando do zero.</span>
+              Se você não começou aos 20, você precisa de uma estratégia de aceleração. O Protocolo Resgate foi criado para resgatar o potencial do seu capital que está parado, transformando o pouco tempo que resta em uma vantagem tática através do mercado de ações, com segurança e inteligência comportamental.
+            </p>
+
+            <p className="text-lg md:text-xl italic text-accent mb-8 max-w-2xl mx-auto leading-relaxed animate-fadeInUp" style={{ animationDelay: "0.25s" }}>
+              "Mudar sua realidade não tem nada a ver com fórmula mágica, mas com estratégia e disciplina."
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeInUp" style={{ animationDelay: "0.3s" }}>
               <Button className="button-primary group hover-lift shine-effect">
-                Quero Iniciar o Protocolo
+                Quero Garantir Minha Aposentadoria Agora
                 <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Button>
-              <Button className="button-secondary hover-scale">Conhecer Mais</Button>
             </div>
 
             {/* Stats with Animation */}
