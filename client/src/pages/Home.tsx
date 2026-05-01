@@ -125,7 +125,7 @@ export default function Home() {
               </span>
             </div>
 
-            <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight animate-fadeInUp" style={{ animationDelay: "0.1s" }}>
+            <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-6xl font-bold mb-6 leading-tight animate-fadeInUp block" style={{ animationDelay: "0.1s" }}>
               Protocolo Resgate: <span className="accent-text gradient-text">Operação Aposentadoria</span>
             </h1>
 
