@@ -249,8 +249,15 @@ export default function Home() {
                 <div className="text-4xl md:text-6xl font-bold mb-2">
                   <span className="accent-text">PROTOCOLO RESGATE:</span>
                 </div>
-                <div className="text-2xl md:text-3xl font-bold">
-                  <span className="text-primary">OPERAÇÃO APOSENTADORIA</span>
+                <div className="text-2xl md:text-3xl font-bold leading-tight">
+                  <span className="text-primary">Operação</span>
+                  <br />
+                  <span className="text-primary" style={{
+                    backgroundImage: "linear-gradient(135deg, #0066FF 0%, #00D4FF 100%)",
+                    WebkitBackgroundClip: "text",
+                    WebkitTextFillColor: "transparent",
+                    backgroundClip: "text"
+                  }}>Aposentadoria</span>
                 </div>
               </div>
               <p className="text-lg leading-relaxed mb-8">
@@ -366,8 +373,8 @@ export default function Home() {
                 <p className="text-lg leading-relaxed mb-6">
                   Se você sente que sua aposentadoria é um ponto de interrogação, entenda uma coisa:
                 </p>
-                <p className="text-2xl font-bold text-primary">
-                  O Protocolo Resgate não é sobre transformar você em um trader ou te ensinar a "vencer o mercado".
+                <p className="text-lg leading-relaxed">
+                  O Protocolo Resgate não é sobre transformar você em um trader ou te ensinar a "vencer o mercado". <span className="font-bold text-primary">É sobre dignidade financeira.</span>
                 </p>
               </div>
             </div>
@@ -397,19 +404,19 @@ export default function Home() {
               <div className="space-y-12">
                 {[
                   {
-                    icon: "🔄",
+                    icon: "1",
                     title: "A Reversão de Cenário",
                     desc: "Vamos identificar onde seu dinheiro está \"sangrando\" e redirecionar seus recursos para ativos que geram renda real, corrigindo a rota enquanto ainda há tempo.",
                     style: "bg-gradient-to-r from-primary/20 to-transparent border-l-4 border-primary"
                   },
                   {
-                    icon: "📊",
+                    icon: "2",
                     title: "Consistência sobre Euforia",
                     desc: "Chega de apostas. Vamos implementar uma estratégia de fluxo de caixa mensal que permita que você saiba exatamente quanto terá no futuro, sem depender da sorte.",
                     style: "bg-gradient-to-l from-accent/20 to-transparent border-r-4 border-accent"
                   },
                   {
-                    icon: "🛡️",
+                    icon: "3",
                     title: "A Blindagem dos Sonhos",
                     desc: "Investir aos 50+ exige uma proteção que um jovem de 20 não precisa. Nosso foco é garantir que o seu patrimônio sobreviva a crises para que os seus planos de descanso, viagens e legado permaneçam vivos e intocáveis.",
                     style: "bg-gradient-to-r from-secondary/20 to-transparent border-l-4 border-secondary"
@@ -421,10 +428,15 @@ export default function Home() {
                     style={{ animationDelay: `${0.5 + i * 0.1}s` }}
                   >
                     <div className="flex gap-6 items-start">
-                      <div className="text-6xl flex-shrink-0">{pillar.icon}</div>
+                      <div className="text-8xl font-black text-accent flex-shrink-0 leading-none" style={{
+                        backgroundImage: "linear-gradient(135deg, #D4AF37 0%, #FFE066 100%)",
+                        WebkitBackgroundClip: "text",
+                        WebkitTextFillColor: "transparent",
+                        backgroundClip: "text"
+                      }}>{pillar.icon}</div>
                       <div>
-                        <h3 className="text-3xl font-bold mb-4 text-primary">{pillar.title}</h3>
-                        <p className="text-lg leading-relaxed text-muted-foreground">{pillar.desc}</p>
+                        <h3 className="text-2xl font-bold mb-3 text-primary">{pillar.title}</h3>
+                        <p className="text-base leading-relaxed text-muted-foreground">{pillar.desc}</p>
                       </div>
                     </div>
                   </div>
@@ -437,8 +449,8 @@ export default function Home() {
               style={{ animationDelay: "0.8s" }}
             >
               <div className="bg-accent/20 border-2 border-accent rounded-2xl p-12 text-center hover-lift">
-                <p className="text-2xl leading-relaxed italic">
-                  Você não está apenas investindo em números. Você está comprando o direito de <span className="font-black text-accent text-3xl">dormir tranquilo</span>, sabendo que o seu "eu" do futuro terá o conforto que você tanto trabalhou para construir.
+                <p className="text-lg leading-relaxed italic">
+                  Você não está apenas investindo em números. Você está comprando o direito de <span className="font-bold text-accent">dormir tranquilo</span>, sabendo que o seu "eu" do futuro terá o conforto que você tanto trabalhou para construir.
                 </p>
               </div>
             </div>
@@ -447,16 +459,12 @@ export default function Home() {
             <div className={`transition-all duration-700 ${visibleSections["dignidade"] ? "animate-fadeInUp" : "opacity-0"}`}
               style={{ animationDelay: "0.9s" }}
             >
-              <div className="space-y-6 text-center">
-                <p className="text-2xl leading-relaxed">
-                  <span className="font-black text-primary text-3xl">O Protocolo Resgate é a linha na areia:</span>
-                  <br />
-                  o momento onde você para de se preocupar com o que não fez e assume o controle total do que fará daqui por diante.
+              <div className="space-y-4 text-center">
+                <p className="text-lg leading-relaxed">
+                  <span className="font-bold text-primary">O Protocolo Resgate é um divisor de águas:</span> o momento onde você para de se preocupar com o que não fez e assume o controle total do que fará daqui por diante.
                 </p>
-                <p className="text-3xl font-black text-accent leading-relaxed">
-                  O Protocolo é muito mais do que uma mentoria.
-                  <br />
-                  É uma filosofia de como tentar virar o jogo a seu favor estrategicamente.
+                <p className="text-lg leading-relaxed">
+                  O Protocolo é muito mais do que uma mentoria. É uma <span className="font-bold text-accent">filosofia de como tentar virar o jogo a seu favor estrategicamente.</span>
                 </p>
               </div>
             </div>
