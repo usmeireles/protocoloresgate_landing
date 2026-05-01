@@ -359,8 +359,8 @@ export default function Home() {
               style={{ animationDelay: "0.1s" }}
             >
               <div className="bg-destructive/15 border-l-4 border-destructive pl-8 pr-8 py-8 rounded-r-lg hover-lift">
-                <p className="text-xl leading-relaxed">
-                  Muitas pessoas chegam aos 50 anos com uma sensação amarga: a de que <span className="font-bold text-destructive text-2xl">"perderam o bonde" dos investimentos</span>. Olham para trás e veem oportunidades perdidas; olham para a frente e sentem o peso da incerteza.
+                <p className="text-lg leading-relaxed">
+                  Muitas pessoas chegam aos 50 anos com uma sensação amarga: a de que <span className="font-bold text-destructive">"perderam o bonde" dos investimentos</span>. Olham para trás e veem oportunidades perdidas; olham para a frente e sentem o peso da incerteza.
                 </p>
               </div>
             </div>
@@ -379,19 +379,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* The Core Message - Centered, Massive */}
-            <div className={`text-center transition-all duration-700 ${visibleSections["dignidade"] ? "animate-fadeInUp" : "opacity-0"}`}
-              style={{ animationDelay: "0.3s" }}
-            >
-              <p className="text-7xl md:text-8xl font-black text-accent leading-tight" style={{
-                backgroundImage: "linear-gradient(135deg, #D4AF37 0%, #FFE066 100%)",
-                WebkitBackgroundClip: "text",
-                WebkitTextFillColor: "transparent",
-                backgroundClip: "text"
-              }}>
-                Dignidade Financeira
-              </p>
-            </div>
+
 
             {/* The Three Pillars - Varied Layouts */}
             <div className={`transition-all duration-700 ${visibleSections["dignidade"] ? "animate-fadeInUp" : "opacity-0"}`}
@@ -526,14 +514,59 @@ export default function Home() {
           </div>
 
           {/* Bônus Especial Box */}
-          <div className={`mt-16 bg-gradient-to-r from-accent/20 to-primary/20 border-2 border-accent rounded-lg p-8 md:p-12 text-center transition-all duration-700 hover-lift ${visibleSections["plano"] ? "animate-fadeInUp" : "opacity-0"}`} style={{ animationDelay: "0.4s" }}>
+          <div className={`mt-16 bg-gradient-to-r from-accent/20 to-primary/20 border-2 border-accent rounded-lg p-8 md:p-12 transition-all duration-700 hover-lift ${visibleSections["plano"] ? "animate-fadeInUp" : "opacity-0"}`} style={{ animationDelay: "0.4s" }}>
             <h3 className="text-2xl md:text-3xl font-bold mb-4 text-accent">🎉 Bônus Especial</h3>
             <p className="text-lg leading-relaxed mb-6">
               Ganhe um <span className="font-bold text-accent">planejamento financeiro</span> para ajudar você a organizar sua vida e criar sua estratégia pessoal.
             </p>
-            <p className="text-sm text-muted-foreground mb-6">
+            <p className="text-sm text-muted-foreground mb-8">
               Só este bônus custa em média <span className="font-bold text-accent">R$ 1.200,00</span>
             </p>
+            
+            {/* O que você ganha */}
+            <div className="bg-primary/10 border-l-4 border-primary rounded-r-lg p-6 text-left mb-8">
+              <h4 className="text-lg font-bold text-primary mb-4">Ao fazer a mentoria você ganha:</h4>
+              <ul className="space-y-2 text-base leading-relaxed">
+                <li className="flex items-start gap-2">
+                  <span className="text-accent font-bold">✓</span>
+                  <span><span className="font-bold text-primary">Organização financeira geral</span></span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-accent font-bold">✓</span>
+                  <span><span className="font-bold text-primary">Planejamento personalizado</span> para sua aposentadoria</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-accent font-bold">✓</span>
+                  <span><span className="font-bold text-primary">Aprendizagem de estratégias</span> no mercado de ações para acelerar o processo</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-accent font-bold">✓</span>
+                  <span><span className="font-bold text-primary">Alinhamento comportamental</span></span>
+                </li>
+              </ul>
+            </div>
+            
+            <div className="bg-accent/10 border-r-4 border-accent rounded-l-lg p-6 text-left mb-8">
+              <h4 className="text-lg font-bold text-accent mb-4">Mais especificamente:</h4>
+              <ul className="space-y-2 text-base leading-relaxed">
+                <li className="flex items-start gap-2">
+                  <span className="text-accent font-bold">•</span>
+                  <span><span className="font-bold text-accent">1 sessão individual com 2h</span> de duração para montagem do seu plano</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-accent font-bold">•</span>
+                  <span><span className="font-bold text-accent">+6 reuniões mensais</span> para acompanhamento individualizado com 1h de duração</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-accent font-bold">•</span>
+                  <span>Além de todos os encontros e dos <span className="font-bold text-accent">6 meses de suporte pelo WhatsApp</span></span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-accent font-bold">•</span>
+                  <span><span className="font-bold text-accent">Totalizando 12 meses de programa</span></span>
+                </li>
+              </ul>
+            </div>
             <a href="https://wa.me/5531982910530?text=Ol%C3%A1%20Ubiratan!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Protocolo%20Resgate%20e%20o%20b%u00f4nus%20de%20planejamento%20financeiro." target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-accent text-accent-foreground px-8 py-3 rounded-lg font-bold hover:bg-accent/90 transition-all duration-300 hover-lift">
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-5.031 1.378c-3.055 2.2-5.02 5.97-5.02 9.981 0 1.396.264 2.823.786 4.171L2.585 21.99l4.693-1.232c1.228.664 2.561 1.01 3.886 1.01 5.487 0 9.86-4.157 10.948-9.869.846-4.537-.649-8.276-4.038-10.456-1.974-1.422-4.592-2.205-7.214-2.16zm8.139 17.013h-.003a10.976 10.976 0 01-1.571-.08c-.548-.052-1.045-.174-1.479-.358l-.423.11 1.41-5.352c.47 1.577 1.314 3.019 2.634 4.11.826.677 1.623 1.078 2.428 1.479zm5.355-18.186C19.761 1.993 15.017 0 9.936 0 4.595 0 .16 4.334.16 9.675c0 1.708.379 3.342 1.076 4.788L0 24l5.11-1.345C6.51 23.387 8.163 24 9.936 24c5.341 0 9.776-4.335 9.776-9.675 0-2.591-.744-5.01-2.162-7.112z"/></svg>
               Falar com Ubiratan no WhatsApp
@@ -604,6 +637,95 @@ export default function Home() {
                   </div>
                 ))}
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Divider */}
+      <div className="relative h-px bg-border">
+        <div className="absolute left-0 top-1/2 h-px w-20 bg-accent transform -translate-y-1/2" />
+      </div>
+
+      {/* O Tempo Parou de Ser um Recurso Section */}
+      <section id="urgencia" data-section="urgencia" className="py-20 md:py-32 bg-secondary/20">
+        <div className="container">
+          <div className="max-w-3xl mx-auto space-y-8">
+            <div className={`transition-all duration-700 ${visibleSections["urgencia"] ? "animate-fadeInUp" : "opacity-0"}`}>
+              <h2 className="text-4xl md:text-5xl font-bold mb-8 leading-tight">
+                O tempo <span className="text-accent">parou de ser um recurso</span> e se tornou o seu maior desafio.
+              </h2>
+              <p className="text-lg leading-relaxed text-muted-foreground mb-6">
+                Se você já passou dos 50, a sensação de frustração e o peso da desilusão têm um nome: <span className="font-bold text-foreground">urgência</span>. Aquele futuro que parecia distante bateu à sua porta, e a pergunta que não quer calar é: "Ainda dá tempo?"
+              </p>
+            </div>
+
+            <div className={`bg-primary/10 border-l-4 border-primary rounded-r-lg p-8 transition-all duration-700 hover-lift ${visibleSections["urgencia"] ? "animate-fadeInUp" : "opacity-0"}`} style={{ animationDelay: "0.1s" }}>
+              <p className="text-xl leading-relaxed">
+                Quero ser direto com você: <span className="font-bold text-primary">Sim, ainda há uma saída.</span> Mas a era dos ensaios acabou. Você não tem mais o luxo de errar, de testar fórmulas mágicas ou de "ver no que dá". Cada tentativa e erro agora consome o seu ativo mais escasso — <span className="font-bold text-primary">o tempo que resta para construir sua liberdade.</span>
+              </p>
+            </div>
+
+            <div className={`transition-all duration-700 ${visibleSections["urgencia"] ? "animate-fadeInUp" : "opacity-0"}`} style={{ animationDelay: "0.2s" }}>
+              <p className="text-lg leading-relaxed text-muted-foreground mb-6">
+                Agora, o jogo mudou. Não é sobre correr riscos desnecessários; isso ficou no passado. É sobre <span className="font-bold text-foreground">estratégia cirúrgica, alvo definido e foco total.</span>
+              </p>
+            </div>
+
+            <div className={`bg-accent/15 border-r-4 border-accent rounded-l-lg p-8 transition-all duration-700 hover-lift ${visibleSections["urgencia"] ? "animate-fadeInUp" : "opacity-0"}`} style={{ animationDelay: "0.3s" }}>
+              <h3 className="text-2xl font-bold mb-6 text-accent">O Protocolo Resgate: Sua última e mais sólida linha de defesa.</h3>
+              <p className="text-lg leading-relaxed mb-6">
+                Diferente de tudo o que você já viu, o Protocolo Resgate não entrega apenas planilhas. Ele entrega um <span className="font-bold text-accent">plano de guerra dividido em quatro frentes inegociáveis:</span>
+              </p>
+              <ul className="space-y-4 text-base leading-relaxed">
+                <li className="flex gap-4">
+                  <span className="text-accent font-bold text-2xl flex-shrink-0">1.</span>
+                  <div>
+                    <span className="font-bold text-accent">Organização Financeira Tática:</span>
+                    <p className="text-muted-foreground mt-1">Arrumar a casa não é mais uma opção, é a fundação para o que vem a seguir.</p>
+                  </div>
+                </li>
+                <li className="flex gap-4">
+                  <span className="text-accent font-bold text-2xl flex-shrink-0">2.</span>
+                  <div>
+                    <span className="font-bold text-accent">Planejamento Blindado de Aposentadoria:</span>
+                    <p className="text-muted-foreground mt-1">Um roteiro personalizado para que você saiba exatamente onde estará nos próximos 5, 10 e 15 anos.</p>
+                  </div>
+                </li>
+                <li className="flex gap-4">
+                  <span className="text-accent font-bold text-2xl flex-shrink-0">3.</span>
+                  <div>
+                    <span className="font-bold text-accent">Aceleração Inteligente em Renda Variável:</span>
+                    <p className="text-muted-foreground mt-1">Usar o mercado não para apostar, mas para alavancar seu patrimônio com segurança e método.</p>
+                  </div>
+                </li>
+                <li className="flex gap-4">
+                  <span className="text-accent font-bold text-2xl flex-shrink-0">4.</span>
+                  <div>
+                    <span className="font-bold text-accent">O Ajuste de Mentalidade (O Fator Decisivo):</span>
+                    <p className="text-muted-foreground mt-1">Olhe para trás com honestidade. Por que você ainda não chegou onde gostaria?</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div className={`transition-all duration-700 ${visibleSections["urgencia"] ? "animate-fadeInUp" : "opacity-0"}`} style={{ animationDelay: "0.4s" }}>
+              <p className="text-lg leading-relaxed text-muted-foreground mb-6">
+                Seja sincero: foram os gastos emocionais? As oportunidades ignoradas? O medo que te fez travar na renda fixa enquanto a inflação devorava seu poder de compra? Ou talvez você tenha até acumulado um bom capital, mas começou a queimá-lo antes da hora por falta de visão.
+              </p>
+              <p className="text-lg leading-relaxed font-semibold text-foreground">
+                <span className="text-accent">Tudo isso é comportamento.</span> Sem o alinhamento mental correto, a melhor estratégia do mundo falha. É por isso que o diferencial do Protocolo Resgate é <span className="text-accent">tratar a raiz do problema: sua mentalidade em relação ao dinheiro.</span>
+              </p>
+            </div>
+
+            <div className={`bg-gradient-to-r from-accent/20 to-primary/20 border-2 border-accent rounded-lg p-8 text-center transition-all duration-700 hover-lift ${visibleSections["urgencia"] ? "animate-fadeInUp" : "opacity-0"}`} style={{ animationDelay: "0.5s" }}>
+              <h3 className="text-2xl md:text-3xl font-bold mb-4 text-accent">A decisão que separa o seu "sonho" da sua "realidade".</h3>
+              <p className="text-lg leading-relaxed mb-6">
+                O Protocolo Resgate é o <span className="font-bold text-accent">divisor de águas</span> entre continuar apenas sobrevivendo à espera do amanhã ou assumir o comando da sua história financeira.
+              </p>
+              <p className="text-lg leading-relaxed font-semibold">
+                O tempo está correndo. Mas hoje, ele ainda está a seu favor para uma última e vitoriosa manobra. <span className="text-accent">Vamos resgatar o seu futuro?</span>
+              </p>
             </div>
           </div>
         </div>
