@@ -126,7 +126,7 @@ export default function Home() {
             </div>
 
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight animate-fadeInUp block" style={{ animationDelay: "0.1s" }}>
-              <span className="accent-text gradient-text">PROTOCOLO RESGATE:</span> <span className="accent-text gradient-text">Operação Aposentadoria</span>
+              <span className="text-yellow-400">PROTOCOLO RESGATE:</span> <span className="accent-text gradient-text">Operação Aposentadoria</span>
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed animate-fadeInUp" style={{ animationDelay: "0.2s" }}>
