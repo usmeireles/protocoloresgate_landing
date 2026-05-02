@@ -246,7 +246,7 @@ export default function Home() {
             {/* Call to Action */}
             <div className={`bg-accent/10 border border-accent/30 rounded-lg p-8 md:p-12 text-center transition-all duration-700 hover-lift animate-borderGlow ${visibleSections["realidade"] ? "animate-fadeInUp" : "opacity-0"}`} style={{ animationDelay: "0.4s" }}>
               <div className="mb-4">
-                <div className="text-2xl md:text-4xl font-bold mb-2">
+                <div className="text-4xl md:text-6xl font-bold mb-2">
                   <span className="accent-text">PROTOCOLO RESGATE:</span>
                 </div>
                 <div className="text-2xl md:text-3xl font-bold leading-tight">
