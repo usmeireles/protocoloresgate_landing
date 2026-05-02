@@ -250,14 +250,7 @@ export default function Home() {
                   <span className="accent-text">PROTOCOLO RESGATE:</span>
                 </div>
                 <div className="text-2xl md:text-3xl font-bold leading-tight">
-                  <span className="text-primary">Operação</span>
-                  <br />
-                  <span className="text-primary" style={{
-                    backgroundImage: "linear-gradient(135deg, #0066FF 0%, #00D4FF 100%)",
-                    WebkitBackgroundClip: "text",
-                    WebkitTextFillColor: "transparent",
-                    backgroundClip: "text"
-                  }}>Aposentadoria</span>
+                  <span className="text-primary">Operação Aposentadoria</span>
                 </div>
               </div>
               <p className="text-lg leading-relaxed mb-8">
