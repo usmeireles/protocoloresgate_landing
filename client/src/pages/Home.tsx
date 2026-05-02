@@ -549,15 +549,15 @@ export default function Home() {
               <h4 className="text-xl font-bold mb-6 text-accent">Mais especificamente:</h4>
               <ul className="space-y-4 text-sm sm:text-base leading-relaxed">
                 <li className="flex items-start gap-3">
-                  <span className="text-2xl sm:text-3xl text-red-500 font-bold">•</span>
+                  <span className="text-2xl sm:text-3xl text-yellow-400 font-bold">+</span>
                   <span>1 sessão individual com 2h de duração para montagem do seu plano</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-2xl sm:text-3xl text-red-500 font-bold">•</span>
+                  <span className="text-2xl sm:text-3xl text-yellow-400 font-bold">+</span>
                   <span>+6 reuniões mensais para acompanhamento individualizado com 1h de duração</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-2xl sm:text-3xl text-red-500 font-bold">•</span>
+                  <span className="text-2xl sm:text-3xl text-yellow-400 font-bold">+</span>
                   <span>Além de todos os encontros e dos 6 meses de suporte pelo WhatsApp</span>
                 </li>
                 <li className="flex items-start gap-3">
@@ -627,8 +627,8 @@ export default function Home() {
                   "Para quem não tem dinheiro algum para começar",
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-3">
-                    <span className="text-xl flex-shrink-0 mt-0.5">✗</span>
-                    <span className="text-muted-foreground">{item}</span>
+                    <span className="text-2xl sm:text-3xl text-red-500 font-bold flex-shrink-0 mt-0.5">•</span>
+                    <span className="text-sm sm:text-base text-muted-foreground">{item}</span>
                   </div>
                 ))}
               </div>
