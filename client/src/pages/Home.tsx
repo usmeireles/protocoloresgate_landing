@@ -627,7 +627,7 @@ export default function Home() {
                   "Para quem não tem dinheiro algum para começar",
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-3">
-                    <span className="text-2xl sm:text-3xl text-red-500 font-bold flex-shrink-0 mt-0.5">•</span>
+                    <span className="text-xl flex-shrink-0 mt-0.5 text-red-500">✗</span>
                     <span className="text-sm sm:text-base text-muted-foreground">{item}</span>
                   </div>
                 ))}
