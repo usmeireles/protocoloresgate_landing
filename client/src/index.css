@@ -249,7 +249,7 @@
   .button-primary {
     background-color: var(--primary);
     color: var(--primary-foreground);
-    padding: 0.75rem 2rem;
+    padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     font-weight: 600;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -258,11 +258,18 @@
     max-width: 100%;
     white-space: normal;
     word-break: break-word;
+    overflow: hidden;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
   }
 
   @media (min-width: 640px) {
     .button-primary {
       width: auto;
+      padding: 0.75rem 2rem;
+      font-size: 1rem;
     }
   }
 
@@ -274,7 +281,7 @@
   .button-secondary {
     border: 2px solid var(--primary);
     color: var(--primary);
-    padding: 0.75rem 2rem;
+    padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     font-weight: 600;
     background-color: transparent;
@@ -283,11 +290,18 @@
     max-width: 100%;
     white-space: normal;
     word-break: break-word;
+    overflow: hidden;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
   }
 
   @media (min-width: 640px) {
     .button-secondary {
       width: auto;
+      padding: 0.75rem 2rem;
+      font-size: 1rem;
     }
   }
 
