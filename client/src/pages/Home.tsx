@@ -547,21 +547,21 @@ export default function Home() {
             
             <div className="bg-accent/10 border-2 border-accent rounded-lg p-8 hover-lift">
               <h4 className="text-xl font-bold mb-6 text-accent">Mais especificamente:</h4>
-              <ul className="space-y-4 text-base leading-relaxed">
+              <ul className="space-y-4 text-sm sm:text-base leading-relaxed">
                 <li className="flex items-start gap-3">
-                  <span className="text-3xl text-accent">•</span>
+                  <span className="text-2xl sm:text-3xl text-red-500 font-bold">+</span>
                   <span>1 sessão individual com 2h de duração para montagem do seu plano</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-3xl text-accent">•</span>
+                  <span className="text-2xl sm:text-3xl text-red-500 font-bold">+</span>
                   <span>+6 reuniões mensais para acompanhamento individualizado com 1h de duração</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-3xl text-accent">•</span>
+                  <span className="text-2xl sm:text-3xl text-red-500 font-bold">+</span>
                   <span>Além de todos os encontros e dos 6 meses de suporte pelo WhatsApp</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-3xl text-accent">•</span>
+                  <span className="text-2xl sm:text-3xl text-red-500 font-bold">+</span>
                   <span>Totalizando 12 meses de programa</span>
                 </li>
               </ul>
