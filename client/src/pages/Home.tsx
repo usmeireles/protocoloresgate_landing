@@ -125,7 +125,7 @@ export default function Home() {
               </span>
             </div>
 
-            <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight animate-fadeInUp block" style={{ animationDelay: "0.1s" }}>
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight animate-fadeInUp block whitespace-nowrap" style={{ animationDelay: "0.1s" }}>
               PROTOCOLO RESGATE: <span className="accent-text gradient-text">Operação Aposentadoria</span>
             </h1>
 
