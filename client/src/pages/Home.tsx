@@ -706,7 +706,7 @@ export default function Home() {
 
             <div className={`transition-all duration-700 ${visibleSections["urgencia"] ? "animate-fadeInUp" : "opacity-0"}`} style={{ animationDelay: "0.4s" }}>
               <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-                Seja sincero: foram os gastos emocionais, as oportunidades ignoradas, o medo que te fez travar na renda fixa enquanto a inflação devorava seu poder de compra, ou talvez o fato de ter torrado um bom capital que você já tinha acumulado. Isto é, provavelmente o que te trouxe aqui foi uma série de decisões ruins. Então, está na hora de começar a escolher as alternativas certas usando o poder da matemática e da estatística a seu favor.
+                Seja sincero: provavelmente foram seus gastos emocionais, as oportunidades ignoradas, o medo que te fez travar na renda fixa enquanto a inflação devorava seu poder de compra, ou talvez o fato de ter torrado um bom capital que você já tinha acumulado que te trouxeram até aqui, ou seja, uma série de decisões ruins. Então, está na hora de melhorar a qualidade da sua tomada de decisão, usando o poder da matemática e da estatística a seu favor para mudar este jogo definitivamente.
               </p>
               <p className="text-lg leading-relaxed font-semibold text-foreground">
                 <span className="text-accent">Tudo isso é comportamento.</span> Sem o alinhamento mental correto, a melhor estratégia do mundo falha. É por isso que o diferencial do Protocolo Resgate é <span className="text-accent">tratar a raiz do problema: sua mentalidade em relação ao dinheiro.</span>
