@@ -249,7 +249,7 @@
   .button-primary {
     background-color: var(--primary);
     color: var(--primary-foreground);
-    padding: 0.5rem 0.25rem;
+    padding: 0.4rem 0.2rem;
     border-radius: 0.5rem;
     font-weight: 600;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -262,9 +262,9 @@
     overflow: visible;
     display: block;
     text-align: center;
-    font-size: 0.6rem;
-    line-height: 1.1;
-    min-height: 2.25rem;
+    font-size: 0.55rem;
+    line-height: 1.05;
+    min-height: 2rem;
   }
 
   @media (min-width: 640px) {
@@ -285,7 +285,7 @@
   .button-secondary {
     border: 2px solid var(--primary);
     color: var(--primary);
-    padding: 0.5rem 0.25rem;
+    padding: 0.4rem 0.2rem;
     border-radius: 0.5rem;
     font-weight: 600;
     background-color: transparent;
@@ -298,9 +298,9 @@
     overflow: visible;
     display: block;
     text-align: center;
-    font-size: 0.6rem;
-    line-height: 1.1;
-    min-height: 2.25rem;
+    font-size: 0.55rem;
+    line-height: 1.05;
+    min-height: 2rem;
   }
 
   @media (min-width: 640px) {
