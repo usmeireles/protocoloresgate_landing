@@ -585,7 +585,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-3xl text-primary">✓</span>
-                  <span>Alinhamento comportamental</span>
+                  <span>Alinhamento comportamental + testes de classificação do seu perfil de investidor</span>
                 </li>
               </ul>
             </div>
