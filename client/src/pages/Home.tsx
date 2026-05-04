@@ -126,7 +126,7 @@ export default function Home() {
             </div>
 
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight animate-fadeInUp block" style={{ animationDelay: "0.1s" }}>
-              <span className="text-yellow-400">PROTOCOLO RESGATE:</span> <span className="accent-text gradient-text">Operação Aposentadoria</span>
+              <span className="text-yellow-400 text-3xl md:text-5xl lg:text-6xl">PROTOCOLO RESGATE:</span> <span className="accent-text gradient-text text-2xl md:text-4xl lg:text-5xl">Operação Aposentadoria</span>
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed animate-fadeInUp" style={{ animationDelay: "0.2s" }}>
@@ -280,9 +280,9 @@ export default function Home() {
             <h2 className={`text-3xl md:text-4xl font-bold mb-8 transition-all duration-700 ${visibleSections["problema"] ? "animate-fadeInUp" : "opacity-0"}`}>
               O Problema
             </h2>
-            <div className="flex justify-center mb-12">
+            <div className="flex justify-center mb-6">
               <div className="w-full md:w-4/5 max-w-2xl">
-                <img src="/manus-storage/MatrixFinal_clean_1ffb0f9c.png" alt="Mercado em movimento - Tempo e oportunidade" className="w-full h-auto object-contain" />
+                <img src="/manus-storage/MatrixFinal_314ec781.png" alt="Mercado em movimento - Tempo e oportunidade" className="w-full h-auto object-contain" />
               </div>
             </div>
 
