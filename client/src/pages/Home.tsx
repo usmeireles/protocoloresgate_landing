@@ -282,7 +282,7 @@ export default function Home() {
             </h2>
             <div className="flex justify-center mb-6">
               <div className="w-full md:w-4/5 max-w-2xl">
-                <img src="/manus-storage/MatrixFinal_314ec781.png" alt="Mercado em movimento - Tempo e oportunidade" className="w-full h-auto object-contain" />
+                <img src="/manus-storage/MatrixLeonardo_6b49c94b.jpg" alt="Mercado em movimento - Tempo e oportunidade" className="w-full h-auto object-contain" />
               </div>
             </div>
 
