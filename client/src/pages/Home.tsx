@@ -282,7 +282,7 @@ export default function Home() {
             </h2>
             <div className="flex justify-center mb-12">
               <div className="w-40 h-40 md:w-48 md:h-48">
-                <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663416505971/3indN6AbNmV863dJhpFVoQ/hourglass-transparent-cXsmtjNby8HhQLbfMkPdDf.webp" alt="Ampulheta - Tempo" className="w-full h-full object-contain" />
+                <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663416505971/3indN6AbNmV863dJhpFVoQ/hourglass-elegant-iMtsXsehrXgJhYM4bXfRV4.webp" alt="Ampulheta - Tempo" className="w-full h-full object-contain" />
               </div>
             </div>
 
