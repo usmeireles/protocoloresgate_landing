@@ -199,7 +199,14 @@ export default function Home() {
 
             {/* Subsection 2 */}
             <div className={`mb-16 transition-all duration-700 ${visibleSections["realidade"] ? "animate-fadeInUp" : "opacity-0"}`} style={{ animationDelay: "0.2s" }}>
-              <h3 className="text-2xl font-bold mb-6 text-primary">A Realidade dos 50: Onde a Matemática Tradicional Falha</h3>
+              <div className="flex flex-col md:flex-row gap-8 items-center mb-8">
+                <div className="flex-1">
+                  <h3 className="text-2xl font-bold mb-6 text-primary">A Realidade dos 50: Onde a Matemática Tradicional Falha</h3>
+                </div>
+                <div className="w-32 h-32 md:w-40 md:h-40 flex-shrink-0">
+                  <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663416505971/3indN6AbNmV863dJhpFVoQ/hourglass-time-dqyDse8D3wXXVjJr6rMUxf.webp" alt="Ampulheta - Tempo" className="w-full h-full object-contain" />
+                </div>
+              </div>
               <p className="text-lg leading-relaxed text-muted-foreground mb-4">
                 O problema é que a maioria dos brasileiros só acorda para a seriedade da aposentadoria por volta dos 50 anos. E, nesse estágio, a conta não fecha mais pelos métodos convencionais.
               </p>
