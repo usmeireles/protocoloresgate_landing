@@ -474,6 +474,43 @@ export default function Home() {
             Esqueça o caos das notícias e o vício em telas de computador. Nossa operação é simples, objetiva e exige apenas alguns minutos da sua semana ou mês.
           </p>
 
+          {/* O que é o Protocolo Resgate */}
+          <div className="mb-20 bg-gradient-to-br from-primary/5 to-accent/5 border border-primary/20 rounded-2xl p-8 md:p-12">
+            <h3 className="text-2xl md:text-3xl font-bold text-center mb-12 text-primary">O que é o Protocolo Resgate</h3>
+            
+            <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+              {/* A Missão */}
+              <div className="space-y-3">
+                <h4 className="text-lg font-bold text-accent">A Missão</h4>
+                <p className="text-muted-foreground leading-relaxed">Começamos estruturando suas bases financeiras, entendendo onde você está, onde quer chegar e quanto tempo tem para percorrer esse caminho.</p>
+              </div>
+              
+              {/* A Montagem da Estratégia */}
+              <div className="space-y-3">
+                <h4 className="text-lg font-bold text-accent">A Montagem da Estratégia</h4>
+                <p className="text-muted-foreground leading-relaxed">Nesta etapa vamos definir as ferramentas e recursos totalmente personalizados a serem alocados nesta missão para o alcance das metas e objetivos fixados.</p>
+              </div>
+              
+              {/* A Aceleração */}
+              <div className="space-y-3">
+                <h4 className="text-lg font-bold text-accent">A Aceleração</h4>
+                <p className="text-muted-foreground leading-relaxed">É aqui onde algumas estratégias são acionadas para buscar retornos de forma exponencial, no entanto, preservando tudo o que já foi conseguido e conquistado, fazendo uma gestão de risco séria e eficaz.</p>
+              </div>
+              
+              {/* O Ajuste da Mentalidade */}
+              <div className="space-y-3">
+                <h4 className="text-lg font-bold text-accent">O Ajuste da Mentalidade</h4>
+                <p className="text-muted-foreground leading-relaxed">Neste ponto seu comportamento será trabalhado e alinhado à estratégia, pois é aqui onde a grande maioria que vai sozinha costuma falhar.</p>
+              </div>
+              
+              {/* Os Checkpoints */}
+              <div className="md:col-span-2 space-y-3">
+                <h4 className="text-lg font-bold text-accent">Os Checkpoints</h4>
+                <p className="text-muted-foreground leading-relaxed">Uma vez por mês vamos parar para fazer as devidas verificações do seu progresso e ajustes no seu comportamento para otimização dos resultados.</p>
+              </div>
+            </div>
+          </div>
+
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
