@@ -199,14 +199,7 @@ export default function Home() {
 
             {/* Subsection 2 */}
             <div className={`mb-16 transition-all duration-700 ${visibleSections["realidade"] ? "animate-fadeInUp" : "opacity-0"}`} style={{ animationDelay: "0.2s" }}>
-              <div className="flex flex-col md:flex-row gap-8 items-center mb-8">
-                <div className="flex-1">
-                  <h3 className="text-2xl font-bold mb-6 text-primary">A Realidade dos 50: Onde a Matemática Tradicional Falha</h3>
-                </div>
-                <div className="w-32 h-32 md:w-40 md:h-40 flex-shrink-0">
-                  <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663416505971/3indN6AbNmV863dJhpFVoQ/hourglass-time-dqyDse8D3wXXVjJr6rMUxf.webp" alt="Ampulheta - Tempo" className="w-full h-full object-contain" />
-                </div>
-              </div>
+              <h3 className="text-2xl font-bold mb-6 text-primary">A Realidade dos 50: Onde a Matemática Tradicional Falha</h3>
               <p className="text-lg leading-relaxed text-muted-foreground mb-4">
                 O problema é que a maioria dos brasileiros só acorda para a seriedade da aposentadoria por volta dos 50 anos. E, nesse estágio, a conta não fecha mais pelos métodos convencionais.
               </p>
@@ -284,9 +277,16 @@ export default function Home() {
       <section id="o-problema" data-section="problema" className="py-20 md:py-32 bg-secondary/30">
         <div className="container">
           <div className="max-w-3xl mx-auto">
-            <h2 className={`text-3xl md:text-4xl font-bold mb-8 transition-all duration-700 ${visibleSections["problema"] ? "animate-fadeInUp" : "opacity-0"}`}>
-              O Problema
-            </h2>
+            <div className="flex flex-col md:flex-row gap-8 items-center mb-8">
+              <div className="flex-1">
+                <h2 className={`text-3xl md:text-4xl font-bold transition-all duration-700 ${visibleSections["problema"] ? "animate-fadeInUp" : "opacity-0"}`}>
+                  O Problema
+                </h2>
+              </div>
+              <div className="w-32 h-32 md:w-40 md:h-40 flex-shrink-0">
+                <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663416505971/3indN6AbNmV863dJhpFVoQ/hourglass-time-dqyDse8D3wXXVjJr6rMUxf.webp" alt="Ampulheta - Tempo" className="w-full h-full object-contain" />
+              </div>
+            </div>
 
             <div className="space-y-6 text-lg leading-relaxed">
               {[
