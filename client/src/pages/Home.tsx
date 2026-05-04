@@ -636,6 +636,10 @@ export default function Home() {
               O coração do Protocolo Resgate é a parte psicológica. Como consultor, vou te ajudar a condicionar sua mentalidade para aplicar a estratégia com disciplina.
             </p>
 
+            <p className={`text-lg leading-relaxed text-muted-foreground mb-8 transition-all duration-700 ${visibleSections["diferencial"] ? "animate-fadeInUp" : "opacity-0"}`}>
+              Seja sincero: provavelmente foram seus gastos emocionais, as oportunidades ignoradas, o medo que te fez travar na renda fixa enquanto a inflação devorava seu poder de compra, ou talvez o fato de ter torrado um bom capital que você já tinha acumulado que te trouxeram até aqui, ou seja, uma série de decisões ruins. Então, está na hora de melhorar a qualidade da sua tomada de decisão, usando o poder da matemática e da estatística a seu favor para mudar este jogo definitivamente.
+            </p>
+
             <div className={`bg-accent/10 border border-accent/30 rounded-lg p-8 transition-all duration-700 hover-lift ${visibleSections["diferencial"] ? "animate-fadeInUp" : "opacity-0"}`}>
               <h3 className="text-xl font-bold mb-6 text-accent">Para Quem é o Protocolo Resgate</h3>
               <div className="space-y-3">
@@ -749,14 +753,7 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className={`transition-all duration-700 ${visibleSections["urgencia"] ? "animate-fadeInUp" : "opacity-0"}`} style={{ animationDelay: "0.4s" }}>
-              <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-                Seja sincero: provavelmente foram seus gastos emocionais, as oportunidades ignoradas, o medo que te fez travar na renda fixa enquanto a inflação devorava seu poder de compra, ou talvez o fato de ter torrado um bom capital que você já tinha acumulado que te trouxeram até aqui, ou seja, uma série de decisões ruins. Então, está na hora de melhorar a qualidade da sua tomada de decisão, usando o poder da matemática e da estatística a seu favor para mudar este jogo definitivamente.
-              </p>
-              <p className="text-lg leading-relaxed font-semibold text-foreground">
-                <span className="text-accent">Tudo isso é comportamento.</span> Sem o alinhamento mental correto, a melhor estratégia do mundo falha. É por isso que o diferencial do Protocolo Resgate é <span className="text-accent">tratar a raiz do problema: sua mentalidade em relação ao dinheiro.</span>
-              </p>
-            </div>
+
 
             <div className={`bg-gradient-to-r from-accent/20 to-primary/20 border-2 border-accent rounded-lg p-8 text-center transition-all duration-700 hover-lift ${visibleSections["urgencia"] ? "animate-fadeInUp" : "opacity-0"}`} style={{ animationDelay: "0.5s" }}>
               <h3 className="text-2xl md:text-3xl font-bold mb-4 text-accent">A decisão que separa o seu "sonho" da sua "realidade".</h3>
