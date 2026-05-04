@@ -277,14 +277,12 @@ export default function Home() {
       <section id="o-problema" data-section="problema" className="py-20 md:py-32 bg-secondary/30">
         <div className="container">
           <div className="max-w-3xl mx-auto">
-            <div className="flex flex-col md:flex-row gap-8 items-center mb-8">
-              <div className="flex-1">
-                <h2 className={`text-3xl md:text-4xl font-bold transition-all duration-700 ${visibleSections["problema"] ? "animate-fadeInUp" : "opacity-0"}`}>
-                  O Problema
-                </h2>
-              </div>
-              <div className="w-32 h-32 md:w-40 md:h-40 flex-shrink-0">
-                <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663416505971/3indN6AbNmV863dJhpFVoQ/hourglass-time-dqyDse8D3wXXVjJr6rMUxf.webp" alt="Ampulheta - Tempo" className="w-full h-full object-contain" />
+            <h2 className={`text-3xl md:text-4xl font-bold mb-8 transition-all duration-700 ${visibleSections["problema"] ? "animate-fadeInUp" : "opacity-0"}`}>
+              O Problema
+            </h2>
+            <div className="flex justify-center mb-12">
+              <div className="w-40 h-40 md:w-48 md:h-48">
+                <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663416505971/3indN6AbNmV863dJhpFVoQ/hourglass-transparent-cXsmtjNby8HhQLbfMkPdDf.webp" alt="Ampulheta - Tempo" className="w-full h-full object-contain" />
               </div>
             </div>
 
