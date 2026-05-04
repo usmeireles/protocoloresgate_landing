@@ -525,7 +525,7 @@ export default function Home() {
               {
                 icon: Users,
                 title: "2. Treinamento Tático ao Vivo",
-                desc: (<>4 encontros de 1h30m cada, por semana, no primeiro mês + 1 encontro mensal, todo mês, durante 5 meses, sempre em grupos de, no máximo 10 alunos, para tirar dúvidas em tempo real e te acompanhar de perto.</>
+                desc: (<><span className="font-bold text-primary">4 encontros de 1h30m cada</span>, por semana, no primeiro mês + <span className="font-bold text-accent">1 encontro mensal, todo mês, durante 5 meses</span>, sempre em grupos de, no máximo <span className="font-bold text-primary">10 alunos</span>, para tirar dúvidas em tempo real e te acompanhar de perto.</>
                 ),
               },
               {
