@@ -531,7 +531,7 @@ export default function Home() {
               {
                 icon: Shield,
                 title: "3. Acompanhamento de Elite",
-                desc: (<><span className="font-bold text-accent">6 meses de suporte</span> direto via WhatsApp após a mentoria para monitoramento da execução e dos seus resultados.</>
+                desc: (<><span className="font-bold text-accent">12 meses de suporte</span> direto, via WhatsApp, caso você tenha dúvidas na execução do plano.</>
                 ),
               },
             ].map((item, i) => (
@@ -555,7 +555,7 @@ export default function Home() {
           <div className={`mt-16 bg-gradient-to-r from-accent/20 to-primary/20 border-2 border-accent rounded-lg p-8 md:p-12 transition-all duration-700 hover-lift ${visibleSections["plano"] ? "animate-fadeInUp" : "opacity-0"}`} style={{ animationDelay: "0.4s" }}>
             <h3 className="text-2xl md:text-3xl font-bold mb-4 text-accent">🎉 Bônus Especial</h3>
             <p className="text-lg leading-relaxed mb-6">
-              Ganhe um <span className="font-bold text-accent">planejamento financeiro</span> para ajudar você a organizar sua vida e criar sua estratégia pessoal.
+              Incluso <span className="font-bold text-accent">planejamento financeiro completo</span> para ajudar você a organizar sua vida e criar sua estratégia pessoal.
             </p>
             <p className="text-sm text-muted-foreground mb-8">
               Só este bônus custa em média <span className="font-bold text-accent text-lg sm:text-2xl whitespace-nowrap">R$ 2.400,00</span>
@@ -603,7 +603,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-2xl sm:text-3xl text-yellow-400 font-bold">+</span>
-                  <span>Além de todos os encontros e dos 6 meses de suporte pelo WhatsApp</span>
+                  <span>Além de todos os encontros e dos 12 meses de suporte pelo WhatsApp</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-2xl sm:text-3xl text-yellow-400 font-bold">+</span>
