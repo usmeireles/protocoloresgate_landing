@@ -274,7 +274,7 @@ export default function Home() {
       </div>
 
       {/* O Problema Section */}
-      <section id="o-problema" data-section="problema" className="py-20 md:py-32 bg-secondary/30">
+      <section id="o-problema" data-section="problema" className="py-20 md:py-32" style={{ backgroundColor: "#0a1435" }}>
         <div className="container">
           <div className="max-w-3xl mx-auto">
             <h2 className={`text-3xl md:text-4xl font-bold mb-8 transition-all duration-700 ${visibleSections["problema"] ? "animate-fadeInUp" : "opacity-0"}`}>
