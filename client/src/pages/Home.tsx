@@ -491,16 +491,16 @@ export default function Home() {
                 <p className="text-muted-foreground leading-relaxed">Nesta etapa vamos definir as ferramentas e recursos totalmente personalizados a serem alocados nesta missão para o alcance das metas e objetivos fixados.</p>
               </div>
               
-              {/* A Aceleração */}
-              <div className="space-y-3">
-                <h4 className="text-lg font-bold text-accent">3. A Aceleração</h4>
-                <p className="text-muted-foreground leading-relaxed">É aqui onde algumas estratégias são acionadas para buscar retornos de forma exponencial, no entanto, preservando tudo o que já foi conseguido e conquistado, fazendo uma gestão de risco séria e eficaz.</p>
-              </div>
-              
               {/* O Ajuste da Mentalidade */}
               <div className="space-y-3">
-                <h4 className="text-lg font-bold text-accent">4. O Ajuste da Mentalidade</h4>
+                <h4 className="text-lg font-bold text-accent">3. O Ajuste da Mentalidade</h4>
                 <p className="text-muted-foreground leading-relaxed">Neste ponto seu comportamento será trabalhado e alinhado à estratégia, pois é aqui onde a grande maioria que vai sozinha costuma falhar.</p>
+              </div>
+              
+              {/* A Aceleração */}
+              <div className="space-y-3">
+                <h4 className="text-lg font-bold text-accent">4. A Aceleração</h4>
+                <p className="text-muted-foreground leading-relaxed">É aqui onde algumas estratégias são acionadas para buscar retornos de forma exponencial, no entanto, preservando tudo o que já foi conseguido e conquistado, fazendo uma gestão de risco séria e eficaz.</p>
               </div>
               
               {/* Os Checkpoints */}
