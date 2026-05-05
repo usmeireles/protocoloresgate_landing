@@ -593,20 +593,20 @@ export default function Home() {
             <div className="bg-accent/10 border-2 border-accent rounded-lg p-8 hover-lift">
               <h4 className="text-xl font-bold mb-6 text-accent">Mais especificamente:</h4>
               <ul className="space-y-4 text-sm sm:text-base leading-relaxed">
-                <li className="flex items-start gap-3">
-                  <span className="text-2xl sm:text-3xl text-yellow-400 font-bold">+</span>
+                <li className="flex items-baseline gap-3">
+                  <span className="text-2xl sm:text-3xl text-yellow-400 font-bold flex-shrink-0">+</span>
                   <span>1 sessão individual com 2h de duração para montagem do seu plano no início do programa</span>
                 </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-2xl sm:text-3xl text-yellow-400 font-bold">+</span>
+                <li className="flex items-baseline gap-3">
+                  <span className="text-2xl sm:text-3xl text-yellow-400 font-bold flex-shrink-0">+</span>
                   <span>+12 reuniões mensais para acompanhamento individualizado com 1h de duração</span>
                 </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-2xl sm:text-3xl text-yellow-400 font-bold">+</span>
+                <li className="flex items-baseline gap-3">
+                  <span className="text-2xl sm:text-3xl text-yellow-400 font-bold flex-shrink-0">+</span>
                   <span>Além de todos os encontros, você ainda terá 12 meses de suporte para tirar dúvidas pelo WhatsApp</span>
                 </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-2xl sm:text-3xl text-yellow-400 font-bold">+</span>
+                <li className="flex items-baseline gap-3">
+                  <span className="text-2xl sm:text-3xl text-yellow-400 font-bold flex-shrink-0">+</span>
                   <span>Totalizando 12 meses de programa</span>
                 </li>
               </ul>
