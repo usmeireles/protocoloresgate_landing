@@ -3,24 +3,7 @@ import { ArrowRight, CheckCircle, Users, TrendingUp, Shield, Zap } from "lucide-
 import { useEffect, useState } from "react";
 
 function LGPDBanner() {
-  const [isVisible, setIsVisible] = useState(true);
-
-  if (!isVisible) return null;
-
-  return (
-    <div className="bg-primary/5 border-t border-primary/30 py-6">
-      <div className="container">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-muted-foreground">
-            Este site utiliza cookies e tecnologias similares para melhorar sua experiência. Ao continuar navegando, você concorda com nossa <a href="#" className="text-primary hover:underline">Política de Privacidade</a> e <a href="#" className="text-primary hover:underline">Política de Cookies</a> conforme a LGPD.
-          </p>
-          <Button className="button-primary whitespace-nowrap" onClick={() => setIsVisible(false)}>
-            Aceitar Tudo
-          </Button>
-        </div>
-      </div>
-    </div>
-  );
+  return null;
 }
 
 export default function Home() {
