@@ -3,7 +3,24 @@ import { ArrowRight, CheckCircle, Users, TrendingUp, Shield, Zap } from "lucide-
 import { useEffect, useState } from "react";
 
 function LGPDBanner() {
-  return null;
+  const [isVisible, setIsVisible] = useState(true);
+
+  if (!isVisible) return null;
+
+  return (
+    <div className="bg-primary/5 border-t border-primary/30 py-6">
+      <div className="container">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+          <p className="text-sm text-muted-foreground">
+            Este site utiliza cookies e tecnologias similares para melhorar sua experiência. Ao continuar navegando, você concorda com nossa <a href="#" className="text-primary hover:underline">Política de Privacidade</a> e <a href="#" className="text-primary hover:underline">Política de Cookies</a> conforme a LGPD.
+          </p>
+          <Button className="button-primary whitespace-nowrap" onClick={() => setIsVisible(false)}>
+            Aceitar Tudo
+          </Button>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default function Home() {
@@ -257,7 +274,7 @@ export default function Home() {
       </div>
 
       {/* O Problema Section */}
-      <section id="o-problema" data-section="problema" className="py-20 md:py-32" style={{ backgroundColor: "#0a1435" }}>
+      <section id="o-problema" data-section="problema" className="py-20 md:py-32 bg-secondary/30">
         <div className="container">
           <div className="max-w-3xl mx-auto">
             <h2 className={`text-3xl md:text-4xl font-bold mb-8 transition-all duration-700 ${visibleSections["problema"] ? "animate-fadeInUp" : "opacity-0"}`}>
@@ -265,7 +282,7 @@ export default function Home() {
             </h2>
             <div className="flex justify-center mb-6">
               <div className="w-full md:w-4/5 max-w-2xl">
-                <img src="/manus-storage/Matrixfundoazulcompressed_03225546.png" alt="Mercado em movimento - Tempo e oportunidade" className="w-full h-auto object-contain opacity-20" />
+                <img src="/manus-storage/Matrixfundoazulcompressed_03225546.png" alt="Mercado em movimento - Tempo e oportunidade" className="w-full h-auto object-contain opacity-40" />
               </div>
             </div>
 
@@ -576,20 +593,20 @@ export default function Home() {
             <div className="bg-accent/10 border-2 border-accent rounded-lg p-8 hover-lift">
               <h4 className="text-xl font-bold mb-6 text-accent">Mais especificamente:</h4>
               <ul className="space-y-4 text-sm sm:text-base leading-relaxed">
-                <li className="flex items-baseline gap-3">
-                  <span className="text-2xl sm:text-3xl text-yellow-400 font-bold flex-shrink-0">+</span>
+                <li className="flex items-start gap-3">
+                  <span className="text-2xl sm:text-3xl text-yellow-400 font-bold">+</span>
                   <span>1 sessão individual com 2h de duração para montagem do seu plano no início do programa</span>
                 </li>
-                <li className="flex items-baseline gap-3">
-                  <span className="text-2xl sm:text-3xl text-yellow-400 font-bold flex-shrink-0">+</span>
+                <li className="flex items-start gap-3">
+                  <span className="text-2xl sm:text-3xl text-yellow-400 font-bold">+</span>
                   <span>+12 reuniões mensais para acompanhamento individualizado com 1h de duração</span>
                 </li>
-                <li className="flex items-baseline gap-3">
-                  <span className="text-2xl sm:text-3xl text-yellow-400 font-bold flex-shrink-0">+</span>
+                <li className="flex items-start gap-3">
+                  <span className="text-2xl sm:text-3xl text-yellow-400 font-bold">+</span>
                   <span>Além de todos os encontros, você ainda terá 12 meses de suporte para tirar dúvidas pelo WhatsApp</span>
                 </li>
-                <li className="flex items-baseline gap-3">
-                  <span className="text-2xl sm:text-3xl text-yellow-400 font-bold flex-shrink-0">+</span>
+                <li className="flex items-start gap-3">
+                  <span className="text-2xl sm:text-3xl text-yellow-400 font-bold">+</span>
                   <span>Totalizando 12 meses de programa</span>
                 </li>
               </ul>
