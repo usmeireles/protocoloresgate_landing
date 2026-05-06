@@ -269,7 +269,7 @@ export default function Home() {
       </div>
 
       {/* O Problema Section */}
-      <section id="o-problema" data-section="problema" className="py-20 md:py-32 bg-secondary/30">
+      <section id="o-problema" data-section="problema" className="py-20 md:py-32" style={{ backgroundColor: '#0c1737' }}>
         <div className="container">
           <div className="max-w-3xl mx-auto">
             <h2 className={`text-3xl md:text-4xl font-bold mb-8 transition-all duration-700 ${visibleSections["problema"] ? "animate-fadeInUp" : "opacity-0"}`}>
@@ -277,7 +277,7 @@ export default function Home() {
             </h2>
             <div className="flex justify-center mb-6">
               <div className="w-full md:w-4/5 max-w-2xl">
-                <img src="/manus-storage/Matrixfundoazulcompressed_03225546.png" alt="Mercado em movimento - Tempo e oportunidade" className="w-full h-auto object-contain opacity-40" />
+                <img src="/manus-storage/Matrixfundoazulcompressed_03225546.png" alt="Mercado em movimento - Tempo e oportunidade" className="w-full h-auto object-contain border border-primary/30 rounded-lg" />
               </div>
             </div>
 
