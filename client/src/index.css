@@ -538,6 +538,20 @@
     animation: shimmer 2s infinite;
   }
 
+  /* Efeito de iluminação para imagens */
+  @keyframes imageLighting {
+    0%, 100% {
+      box-shadow: 0 0 30px rgba(0, 102, 255, 0.4), inset 0 0 30px rgba(0, 102, 255, 0.1);
+    }
+    50% {
+      box-shadow: 0 0 50px rgba(0, 102, 255, 0.6), inset 0 0 40px rgba(0, 102, 255, 0.2);
+    }
+  }
+
+  .image-glow {
+    animation: imageLighting 3s ease-in-out infinite;
+  }
+
   /* Responsividade */
   @media (max-width: 768px) {
     h1 {

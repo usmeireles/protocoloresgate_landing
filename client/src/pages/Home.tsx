@@ -277,7 +277,7 @@ export default function Home() {
             </h2>
             <div className="flex justify-center mb-6">
               <div className="w-full md:w-4/5 max-w-2xl">
-                <img src="/manus-storage/Matrixfundoazulcompressed_03225546.png" alt="Mercado em movimento - Tempo e oportunidade" className="w-full h-auto object-contain border border-primary/30 rounded-lg" />
+                <img src="/manus-storage/Matrixfundoazulcompressed_03225546.png" alt="Mercado em movimento - Tempo e oportunidade" className="w-full h-auto object-contain border-2 border-primary/50 rounded-lg image-glow" style={{ objectPosition: 'center 30%' }} />
               </div>
             </div>
 
@@ -312,6 +312,12 @@ export default function Home() {
             <h2 className={`text-3xl md:text-4xl font-bold mb-8 transition-all duration-700 ${visibleSections["solucao"] ? "animate-fadeInUp" : "opacity-0"}`}>
               A Missão: <span className="accent-text">Resgatar Seu Tempo Perdido</span>
             </h2>
+
+            <div className="flex justify-center mb-8">
+              <div className="w-full md:w-4/5 max-w-2xl">
+                <img src="/manus-storage/Resgate_Compressed_8a33550e.png" alt="Operação Resgate - Missão" className="w-full h-auto object-contain border-2 border-primary/50 rounded-lg image-glow" />
+              </div>
+            </div>
 
             <p className={`text-lg leading-relaxed mb-8 transition-all duration-700 ${visibleSections["solucao"] ? "animate-fadeInUp" : "opacity-0"}`}>
               Auxiliar você, de forma prática, a usar todo o sobe e desce da bolsa a seu favor. Minha missão é te mostrar como mudar o jogo através de uma visão tática das oportunidades que o mercado oferece, focando no crescimento exponencial do seu capital para a aposentadoria, com risco totalmente controlado.
