@@ -137,12 +137,7 @@ export default function Home() {
               "Mudar sua realidade não tem nada a ver com fórmula mágica, mas com estratégia e disciplina."
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeInUp" style={{ animationDelay: "0.3s" }}>
-              <Button className="button-primary group hover-lift shine-effect">
-                Quero Garantir Minha Aposentadoria Agora
-                <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-              </Button>
-            </div>
+
 
             {/* Stats with Animation */}
             <div className="mt-16 grid grid-cols-3 gap-8 text-center">
