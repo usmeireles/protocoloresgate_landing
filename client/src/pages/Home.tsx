@@ -277,7 +277,7 @@ export default function Home() {
             </h2>
             <div className="flex justify-center mb-6">
               <div className="w-full md:w-4/5 max-w-2xl">
-                <img src="/manus-storage/Matrixfundoazulcompressed_cropped_54c80b4c.png" alt="Mercado em movimento - Tempo e oportunidade" className="w-full h-auto object-contain border-2 border-primary/50 rounded-lg image-glow" />
+                <img src="/manus-storage/Matrixfundoazulcompressed_cropped_10bb6de4.png" alt="Mercado em movimento - Tempo e oportunidade" className="w-full h-auto object-contain border-2 border-primary/50 rounded-lg image-glow" />
               </div>
             </div>
 
@@ -512,8 +512,8 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Como vai funcionar */}
-          <h3 className="text-2xl md:text-3xl font-bold text-center mb-12 text-primary mt-16">Como vai funcionar</h3>
+          {/* Como funciona */}
+          <h3 className="text-2xl md:text-3xl font-bold text-center mb-12 text-primary mt-16">Como funciona</h3>
 
           <div className="grid md:grid-cols-3 gap-8">
             {[
