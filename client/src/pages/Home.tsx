@@ -254,8 +254,8 @@ export default function Home() {
               <p className="text-lg leading-relaxed mb-8 text-center text-accent italic font-semibold">
                 "Mudar sua realidade não tem nada a ver com fórmula mágica, mas com estratégia e disciplina."
               </p>
-              <Button className="button-primary group hover-lift shine-effect" style={{ fontSize: "13px" }}>
-                Garantir Minha Aposentadoria Agora
+              <Button className="button-primary group hover-lift shine-effect">
+                Quero Garantir Minha Aposentadoria Agora
                 <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Button>
             </div>
@@ -787,7 +787,7 @@ export default function Home() {
           </p>
 
           <Button className="bg-accent text-accent-foreground hover:bg-accent/90 px-10 py-4 text-xl md:text-2xl font-bold group hover-lift shine-effect animate-pulseGlow">
-            Quero Iniciar o Protocolo
+            Quero Iniciar o Protocolo Resgate
             <ArrowRight className="ml-2 w-6 h-6 group-hover:translate-x-1 transition-transform" />
           </Button>
         </div>
