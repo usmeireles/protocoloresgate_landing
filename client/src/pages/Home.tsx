@@ -507,9 +507,9 @@ export default function Home() {
           </div>
 
           {/* Como vai funcionar */}
-          <h3 className="text-2xl md:text-3xl font-bold text-center mb-12 text-primary mt-16">Como vai funcionar</h3>
+          <h3 className="text-2xl md:text-3xl font-bold text-center mb-12 text-primary mt-16">Como funciona</h3>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-3 gap-8 justify-items-center md:justify-items-start">
             {[
               {
                 icon: TrendingUp,
@@ -535,7 +535,7 @@ export default function Home() {
                 className={`group transition-all duration-700 ${visibleSections["plano"] ? "animate-fadeInUp" : "opacity-0"}`}
                 style={{ animationDelay: `${i * 0.1}s` }}
               >
-                <div className="relative mb-6">
+                <div className="relative mb-6 mx-auto md:mx-0">
                   <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center group-hover:bg-primary/20 transition-all duration-300 hover-lift animate-pulseGlow">
                     <item.icon className="w-8 h-8 text-primary" />
                   </div>
