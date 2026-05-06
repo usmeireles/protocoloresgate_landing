@@ -94,7 +94,7 @@ export default function Home() {
               </a>
             ))}
           </nav>
-          <Button className="button-primary text-sm hover-lift">Começar Agora</Button>
+
         </div>
       </header>
 
