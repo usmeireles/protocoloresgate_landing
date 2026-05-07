@@ -249,7 +249,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-lg leading-relaxed mb-8">
-                Se você não começou aos 20, você precisa de uma <span className="font-bold text-primary">estratégia de aceleração</span>. O Protocolo Resgate foi criado para resgatar o potencial do seu capital que está parado, transformando o pouco tempo que resta em uma vantagem tática através do mercado de ações, com segurança e inteligência comportamental.
+                 Se você não começou aos 20, você precisa de uma <span className="font-bold text-primary">estratégia de aceleração</span>. O Protocolo Resgate foi criado para resgatar o potencial do seu capital que está parado, transformando o pouco tempo que resta em uma vantagem tática através do mercado de ações, com segurança e inteligência comportamental.
               </p>
               <p className="text-lg leading-relaxed mb-8 text-center text-accent italic font-semibold">
                 "Mudar sua realidade não tem nada a ver com fórmula mágica, mas com estratégia e disciplina."
@@ -359,7 +359,7 @@ export default function Home() {
             >
               <div className="bg-destructive/15 border-l-4 border-destructive pl-8 pr-8 py-8 rounded-r-lg hover-lift">
                 <p className="text-lg leading-relaxed">
-                  Muitas pessoas chegam aos 50 anos com uma sensação amarga: a de que <span className="font-bold text-destructive">"perderam o bonde" dos investimentos</span>. Olham para trás e veem oportunidades perdidas; olham para a frente e sentem o peso da incerteza.
+                   Muitas pessoas chegam aos 50 anos com uma sensação amarga: a de que <span className="font-bold text-destructive">"perderam o bonde" dos investimentos</span>. Olham para trás e veem oportunidades perdidas; olham para a frente e sentem o peso da incerteza.
                 </p>
               </div>
             </div>
@@ -373,7 +373,7 @@ export default function Home() {
                   Se você sente que sua aposentadoria é um ponto de interrogação, entenda uma coisa:
                 </p>
                 <p className="text-lg leading-relaxed">
-                  O Protocolo Resgate não é sobre transformar você em um trader ou te ensinar a "vencer o mercado". <span className="font-bold text-primary">É sobre dignidade financeira.</span>
+                   O Protocolo Resgate não é sobre transformar você em um trader ou te ensinar a "vencer o mercado". <span className="font-bold text-primary">É sobre dignidade financeira.</span>
                 </p>
               </div>
             </div>
@@ -437,7 +437,7 @@ export default function Home() {
             >
               <div className="bg-accent/20 border-2 border-accent rounded-2xl p-12 text-center hover-lift">
                 <p className="text-lg leading-relaxed italic">
-                  Você não está apenas investindo em números. Você está comprando o direito de <span className="font-bold text-accent">dormir tranquilo</span>, sabendo que o seu "eu" do futuro terá o conforto que você tanto trabalhou para construir.
+                   Você não está apenas investindo em números. Você está comprando o direito de <span className="font-bold text-accent">dormir tranquilo</span>, sabendo que o seu "eu" do futuro terá o conforto que você tanto trabalhou para construir.
                 </p>
               </div>
             </div>
@@ -451,7 +451,7 @@ export default function Home() {
                   <span className="font-bold text-primary">O Protocolo Resgate é um divisor de águas:</span> o momento onde você para de se preocupar com o que não fez e assume o controle total do que fará daqui por diante.
                 </p>
                 <p className="text-lg leading-relaxed">
-                  O Protocolo é muito mais do que uma mentoria. É uma <span className="font-bold text-accent">filosofia de como tentar virar o jogo a seu favor estrategicamente.</span>
+                   O Protocolo é muito mais do que uma mentoria. É uma <span className="font-bold text-accent">filosofia de como tentar virar o jogo a seu favor estrategicamente.</span>
                 </p>
               </div>
             </div>
