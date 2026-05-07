@@ -677,6 +677,12 @@ export default function Home() {
               <p className="text-lg leading-relaxed font-semibold text-accent border-t border-accent/30 pt-6 mt-6">
                 Decisões ruins te trouxeram até aqui. Uma decisão inteligente pode te tirar.
               </p>
+              <div className="flex justify-center mt-8">
+                <Button className="group hover-lift shine-effect" style={{ backgroundColor: '#FF8C00', color: '#FFFFFF', padding: '0.75rem 2rem', borderRadius: '0.5rem', fontWeight: '600', fontSize: '1rem', border: 'none', cursor: 'pointer', transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)', boxShadow: '0 4px 6px rgba(255, 140, 0, 0.2)' }} onMouseEnter={(e) => { e.currentTarget.style.boxShadow = '0 12px 24px rgba(255, 140, 0, 0.4)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseLeave={(e) => { e.currentTarget.style.boxShadow = '0 4px 6px rgba(255, 140, 0, 0.2)'; e.currentTarget.style.transform = 'translateY(0)'; }}>
+                  QUERO MUDAR MEU JOGO AGORA
+                  <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                </Button>
+              </div>
             </div>
 
             <div className={`bg-accent/10 border border-accent/30 rounded-lg p-8 transition-all duration-700 hover-lift ${visibleSections["diferencial"] ? "animate-fadeInUp" : "opacity-0"}`}>
