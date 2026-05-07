@@ -674,7 +674,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <p className="text-lg leading-relaxed font-semibold text-accent border-t border-accent/30 pt-6 mt-6">
+              <p className="text-lg leading-relaxed font-semibold text-accent border-t border-accent/30 pt-6 mt-6 mb-12">
                 Decisões ruins te trouxeram até aqui. Uma decisão inteligente pode te tirar.
               </p>
             </div>
