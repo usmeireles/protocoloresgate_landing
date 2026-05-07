@@ -552,6 +552,36 @@
     animation: imageLighting 3s ease-in-out infinite;
   }
 
+  /* Gradiente animado na borda */
+  @keyframes borderGradientFlow {
+    0% {
+      border-image-source: linear-gradient(90deg, #0066FF 0%, #00FF88 50%, #0066FF 100%);
+      border-image-slice: 1;
+    }
+    25% {
+      border-image-source: linear-gradient(90deg, #00FF88 0%, #0066FF 50%, #00FF88 100%);
+      border-image-slice: 1;
+    }
+    50% {
+      border-image-source: linear-gradient(90deg, #0066FF 0%, #00FF88 50%, #0066FF 100%);
+      border-image-slice: 1;
+    }
+    75% {
+      border-image-source: linear-gradient(90deg, #00FF88 0%, #0066FF 50%, #00FF88 100%);
+      border-image-slice: 1;
+    }
+    100% {
+      border-image-source: linear-gradient(90deg, #0066FF 0%, #00FF88 50%, #0066FF 100%);
+      border-image-slice: 1;
+    }
+  }
+
+  .image-border-gradient {
+    border-width: 2px;
+    border-style: solid;
+    animation: borderGradientFlow 4s linear infinite;
+  }
+
   /* Responsividade */
   @media (max-width: 768px) {
     h1 {
