@@ -254,7 +254,7 @@ export default function Home() {
               <p className="text-lg leading-relaxed mb-8 text-center text-accent italic font-semibold">
                 "Mudar sua realidade não tem nada a ver com fórmula mágica, mas com estratégia e disciplina."
               </p>
-              <Button className="button-primary group hover-lift shine-effect" style={{ fontSize: "13px" }}>
+              <Button className="button-primary group hover-lift shine-effect w-full sm:w-auto px-6 py-3 text-sm sm:text-base">
                 Garantir Minha Aposentadoria Agora
                 <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Button>
@@ -678,7 +678,7 @@ export default function Home() {
                 Decisões ruins te trouxeram até aqui. Uma decisão inteligente pode te tirar.
               </p>
               <div className="flex justify-center mt-8 mb-12">
-                <Button className="group hover-lift shine-effect" style={{ backgroundColor: '#FF8C00', color: '#FFFFFF', padding: '0.75rem 2rem', borderRadius: '0.5rem', fontWeight: '600', fontSize: '1rem', border: 'none', cursor: 'pointer', transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)', boxShadow: '0 4px 6px rgba(255, 140, 0, 0.2)' }} onMouseEnter={(e) => { e.currentTarget.style.boxShadow = '0 12px 24px rgba(255, 140, 0, 0.4)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseLeave={(e) => { e.currentTarget.style.boxShadow = '0 4px 6px rgba(255, 140, 0, 0.2)'; e.currentTarget.style.transform = 'translateY(0)'; }}>
+                <Button className="group hover-lift shine-effect w-full sm:w-auto px-6 py-3 text-sm sm:text-base" style={{ backgroundColor: '#FF8C00', color: '#FFFFFF', borderRadius: '0.5rem', fontWeight: '600', border: 'none', cursor: 'pointer', transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)', boxShadow: '0 4px 6px rgba(255, 140, 0, 0.2)' }} onMouseEnter={(e) => { e.currentTarget.style.boxShadow = '0 12px 24px rgba(255, 140, 0, 0.4)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseLeave={(e) => { e.currentTarget.style.boxShadow = '0 4px 6px rgba(255, 140, 0, 0.2)'; e.currentTarget.style.transform = 'translateY(0)'; }}>
                   QUERO MUDAR MEU JOGO AGORA
                   <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </Button>
@@ -808,7 +808,7 @@ export default function Home() {
               <p className="text-lg leading-relaxed font-semibold mb-8">
                 O tempo está correndo. Mas hoje, ele ainda está a seu favor para uma última e vitoriosa manobra. <span className="text-accent">Vamos resgatar o seu futuro?</span>
               </p>
-              <Button className="group hover-lift shine-effect" style={{ backgroundColor: '#FF8C00', color: '#FFFFFF', padding: '0.75rem 2rem', borderRadius: '0.5rem', fontWeight: '600', fontSize: '1rem', border: 'none', cursor: 'pointer', transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)', boxShadow: '0 4px 6px rgba(255, 140, 0, 0.2)' }} onMouseEnter={(e) => { e.currentTarget.style.boxShadow = '0 12px 24px rgba(255, 140, 0, 0.4)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseLeave={(e) => { e.currentTarget.style.boxShadow = '0 4px 6px rgba(255, 140, 0, 0.2)'; e.currentTarget.style.transform = 'translateY(0)'; }}>
+              <Button className="group hover-lift shine-effect w-full sm:w-auto px-6 py-3 text-sm sm:text-base" style={{ backgroundColor: '#FF8C00', color: '#FFFFFF', borderRadius: '0.5rem', fontWeight: '600', border: 'none', cursor: 'pointer', transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)', boxShadow: '0 4px 6px rgba(255, 140, 0, 0.2)' }} onMouseEnter={(e) => { e.currentTarget.style.boxShadow = '0 12px 24px rgba(255, 140, 0, 0.4)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseLeave={(e) => { e.currentTarget.style.boxShadow = '0 4px 6px rgba(255, 140, 0, 0.2)'; e.currentTarget.style.transform = 'translateY(0)'; }}>
                 Quero Resgatar meu Futuro
                 <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Button>
