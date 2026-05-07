@@ -254,7 +254,7 @@ export default function Home() {
               <p className="text-lg leading-relaxed mb-8 text-center text-accent italic font-semibold">
                 "Mudar sua realidade não tem nada a ver com fórmula mágica, mas com estratégia e disciplina."
               </p>
-              <Button className="button-primary group hover-lift shine-effect w-full sm:w-auto px-6 py-3 text-sm sm:text-base">
+              <Button className="button-primary group hover-lift shine-effect px-8 py-3">
                 Garantir Minha Aposentadoria Agora
                 <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Button>
