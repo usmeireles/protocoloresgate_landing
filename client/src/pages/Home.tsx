@@ -637,7 +637,7 @@ export default function Home() {
             </p>
 
             <div className={`space-y-6 transition-all duration-700 ${visibleSections["diferencial"] ? "animate-fadeInUp" : "opacity-0"}`}>
-              <h3 className="text-2xl md:text-3xl font-bold text-accent mb-6">O Tempo Não Perdoa Decisões Erradas. Mas a Estatística Sim.</h3>
+              <h3 className="text-2xl md:text-3xl font-bold text-accent mb-6">O Tempo Não Perdoa Decisões Erradas. Mas a Estatística Pode Reverter Isso.</h3>
               
               <p className="text-lg leading-relaxed text-muted-foreground">
                 Se você chegou aos 50 sem o patrimônio que sonhou, sejamos sinceros: <span className="font-bold text-white">não foi azar.</span>
