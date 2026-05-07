@@ -641,7 +641,7 @@ export default function Home() {
               <h3 className="text-2xl md:text-3xl font-bold text-accent mb-6">O Tempo Não Perdoa Decisões Erradas. Mas a Estatística Sim.</h3>
               
               <p className="text-lg leading-relaxed text-muted-foreground">
-                Se você chegou aos 50 sem o patrimônio que sonhou, sejamos sinceros: não foi azar.
+                Se você chegou aos 50 sem o patrimônio que sonhou, sejamos sinceros: <span className="font-bold text-white">não foi azar.</span>
               </p>
 
               <p className="text-lg leading-relaxed text-muted-foreground">
