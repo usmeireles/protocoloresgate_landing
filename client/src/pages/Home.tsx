@@ -637,9 +637,48 @@ export default function Home() {
               O coração do Protocolo Resgate é a parte psicológica. Como consultor, vou te ajudar a condicionar sua mentalidade para aplicar a estratégia com disciplina.
             </p>
 
-            <p className={`text-lg leading-relaxed text-muted-foreground mb-8 transition-all duration-700 ${visibleSections["diferencial"] ? "animate-fadeInUp" : "opacity-0"}`}>
-              Seja sincero: provavelmente foram seus gastos emocionais, as oportunidades ignoradas, o medo que te fez travar na renda fixa enquanto a inflação devorava seu poder de compra, ou talvez o fato de ter torrado um bom capital que você já tinha acumulado que te trouxeram até aqui, ou seja, uma série de decisões ruins. Então, está na hora de melhorar a qualidade da sua tomada de decisão, usando o poder da matemática e da estatística a seu favor para mudar este jogo definitivamente.
-            </p>
+            <div className={`space-y-6 transition-all duration-700 ${visibleSections["diferencial"] ? "animate-fadeInUp" : "opacity-0"}`}>
+              <h3 className="text-2xl md:text-3xl font-bold text-accent mb-6">O Tempo Não Perdoa Decisões Erradas. Mas a Estatística Sim.</h3>
+              
+              <p className="text-lg leading-relaxed text-muted-foreground">
+                Se você chegou aos 50 sem o patrimônio que sonhou, sejamos sinceros: não foi azar.
+              </p>
+
+              <p className="text-lg leading-relaxed text-muted-foreground">
+                Foram seus gastos emocionais, as oportunidades que o medo te fez ignorar e aquela segurança ilusória da Renda Fixa enquanto a inflação devorava seu poder de compra. Você tomou uma série de decisões ruins baseadas em sentimentos.
+              </p>
+
+              <p className="text-lg leading-relaxed font-semibold text-accent">
+                O jogo mudou. Agora, a sua intuição é sua pior inimiga.
+              </p>
+
+              <p className="text-lg leading-relaxed text-muted-foreground">
+                Para recuperar o tempo perdido, você precisa substituir o medo pela Matemática e a dúvida pela Estatística.
+              </p>
+
+              <p className="text-lg leading-relaxed font-semibold mb-6">
+                No Protocolo Resgate, você para de "tentar" e começa a operar com estratégia:
+              </p>
+
+              <div className="space-y-4 ml-6">
+                <div>
+                  <h4 className="font-bold text-accent mb-2">Decisões Técnicas:</h4>
+                  <p className="text-muted-foreground">Saía do amadorismo emocional e use modelos quantitativos.</p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-accent mb-2">Aceleração de Capital:</h4>
+                  <p className="text-muted-foreground">Use a volatilidade a seu favor para buscar ganhos que a renda fixa jamais entregará.</p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-accent mb-2">Segurança Matemática:</h4>
+                  <p className="text-muted-foreground">Proteja o que restou e multiplique com foco em probabilidade, não em sorte.</p>
+                </div>
+              </div>
+
+              <p className="text-lg leading-relaxed font-semibold text-accent border-t border-accent/30 pt-6 mt-6">
+                Decisões ruins te trouxeram até aqui. Uma decisão inteligente pode te tirar.
+              </p>
+            </div>
 
             <div className={`bg-accent/10 border border-accent/30 rounded-lg p-8 transition-all duration-700 hover-lift ${visibleSections["diferencial"] ? "animate-fadeInUp" : "opacity-0"}`}>
               <h3 className="text-xl font-bold mb-6 text-accent">Para Quem é o Protocolo Resgate</h3>
