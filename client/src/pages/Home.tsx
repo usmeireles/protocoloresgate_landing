@@ -761,9 +761,13 @@ export default function Home() {
               <p className="text-lg leading-relaxed mb-6">
                 O Protocolo Resgate é o <span className="font-bold text-accent">divisor de águas</span> entre continuar apenas sobrevivendo à espera do amanhã ou assumir o comando da sua história financeira.
               </p>
-              <p className="text-lg leading-relaxed font-semibold">
+              <p className="text-lg leading-relaxed font-semibold mb-8">
                 O tempo está correndo. Mas hoje, ele ainda está a seu favor para uma última e vitoriosa manobra. <span className="text-accent">Vamos resgatar o seu futuro?</span>
               </p>
+              <Button className="button-primary group hover-lift shine-effect">
+                Quero Resgatar meu Futuro
+                <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </Button>
             </div>
           </div>
         </div>
