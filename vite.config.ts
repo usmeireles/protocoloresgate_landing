@@ -20,9 +20,9 @@ export default defineConfig({
   root: path.resolve(__dirname, "client"),
 
   build: {
-    outDir: path.resolve(__dirname, "dist/public"),
-    emptyOutDir: true,
-  },
+  outDir: "dist",
+  emptyOutDir: true,
+},
 
   server: {
     port: 3000,
