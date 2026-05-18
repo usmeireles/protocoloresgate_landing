@@ -277,7 +277,7 @@ export default function Home() {
             </h2>
             <div className="flex justify-center mb-6">
               <div className="w-full md:w-4/5 max-w-2xl">
-                <img src="/manus-storage/Matrixfundoazulcompressed_cropped_10bb6de4.png" alt="Mercado em movimento - Tempo e oportunidade" className="w-full h-auto object-contain border-2 rounded-lg image-glow image-border-gradient" />
+                <img src="/manus-storage/matrix-fundo-azul_da35647b.png" alt="Mercado em movimento - Tempo e oportunidade" className="w-full h-auto object-contain border-2 rounded-lg image-glow image-border-gradient" />
               </div>
             </div>
 
@@ -315,7 +315,7 @@ export default function Home() {
 
             <div className="flex justify-center mb-8">
               <div className="w-full md:w-4/5 max-w-2xl">
-                <img src="/manus-storage/Resgate_Compressed_8a33550e.png" alt="Operação Resgate - Missão" className="w-full h-auto object-contain border-2 rounded-lg image-glow image-border-gradient" />
+                <img src="/manus-storage/resgate-operacao_c1e0690c.png" alt="Operação Resgate - Missão" className="w-full h-auto object-contain border-2 rounded-lg image-glow image-border-gradient" />
               </div>
             </div>
 
